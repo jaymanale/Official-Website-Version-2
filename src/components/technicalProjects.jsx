@@ -3,7 +3,7 @@ import React from 'react';
 const TechnicalProjects = () => {
   return (
     <React.Fragment>
-      <h1>Technial Projects</h1>
+      <h1 className="m-2">Technial Projects</h1>
       <div className="row">
         <div className="col-sm-12 col-md-6">project card 1</div>
         <div className="col-sm-12 col-md-6">project card 2</div>

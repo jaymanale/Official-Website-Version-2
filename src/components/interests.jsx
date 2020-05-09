@@ -1,11 +1,14 @@
 import React from 'react';
+import interestsImg from './../resources/svg/interests.svg';
 
 const Interests = () => {
   return (
     <React.Fragment>
       <h1>Interests</h1>
       <div className="row">
-        <div className="col-sm-12 col-md-6">img goes here</div>
+        <div className="col-sm-12 col-md-6">
+          <img className="img-fluid" src={interestsImg} alt="Interests" />
+        </div>
         <div className="col-sm-12 col-md-6">
           <ul>
             <li>

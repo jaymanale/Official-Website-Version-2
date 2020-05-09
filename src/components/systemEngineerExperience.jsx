@@ -1,9 +1,16 @@
 import React from 'react';
+import expImg from './../resources/svg/experience.svg';
 
-const SystemEngineerExperience = () =>{
-    return (
-        <div className="row">
-      <div className="col-sm-12 col-md-6">img</div>
+const SystemEngineerExperience = () => {
+  return (
+    <div className="row">
+      <div className="col-sm-12 col-md-6">
+        <img
+          className="img-fluid"
+          src={expImg}
+          alt="System Engineer Position"
+        />
+      </div>
       <div className="col-sm-12 col-md-6">
         <h1>System Engineer</h1>
         <p>Project - Data Privacy Management</p>
@@ -31,7 +38,7 @@ const SystemEngineerExperience = () =>{
         </ul>
       </div>
     </div>
-    )
-}
+  );
+};
 
 export default SystemEngineerExperience;

@@ -1,11 +1,14 @@
 import React from 'react';
+import skillsImg from './../resources/svg/skills.svg';
 
 const Skills = () => {
   return (
     <React.Fragment>
-      <h1>Skills</h1>
+      <h1 className="m-2">Skills</h1>
       <div className="row">
-        <div className="col-sm-12 col-md-6">img goes here</div>
+        <div className="col-sm-12 col-md-6">
+          <img className="img-fluid" src={skillsImg} alt="Skills" />
+        </div>
         <div className="col-sm-12 col-md-6">
           <h3>Front End</h3>
           <div>front img goes here</div>
