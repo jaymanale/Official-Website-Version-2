@@ -1,7 +1,7 @@
 import React from 'react';
-//import Card from './card.jsx';
 import getContributionData from './../services/onlineContributionService';
 import './../styles/card.css';
+
 const OnlineContribution = () => {
   let onlineContributionData = getContributionData();
   return (
