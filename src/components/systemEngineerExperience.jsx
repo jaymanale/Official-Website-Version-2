@@ -3,16 +3,17 @@ import expImg from './../resources/svg/experience.svg';
 
 const SystemEngineerExperience = () => {
   return (
-    <div className="row">
+    <div className="row  py-4">
       <div className="col-sm-12 col-md-6">
+        <h1>Experience</h1>
         <img
           className="img-fluid"
           src={expImg}
           alt="System Engineer Position"
         />
       </div>
-      <div className="col-sm-12 col-md-6">
-        <h1>System Engineer</h1>
+      <div className="col-sm-12 col-md-6 my-5">
+        <h3>System Engineer</h3>
         <p>Project - Data Privacy Management</p>
         <ul>
           <li>

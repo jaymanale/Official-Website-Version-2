@@ -2,16 +2,9 @@ import React from 'react';
 import expImg from './../resources/svg/experience.svg';
 const AssistantExperience = () => {
   return (
-    <div className="row">
+    <div className="row  py-5">
       <div className="col-sm-12 col-md-6">
-        <img
-          className="img-fluid"
-          src={expImg}
-          alt="Assistant System Engineer Position"
-        />
-      </div>
-      <div className="col-sm-12 col-md-6">
-        <h1>Assistant System Engineer</h1>
+        <h3>Assistant System Engineer</h3>
         <p>Project - Application portfolio Management</p>
         <ul>
           <li>
@@ -33,6 +26,13 @@ const AssistantExperience = () => {
             Java (Spring), PostgreSql at Back-End
           </li>
         </ul>
+      </div>
+      <div className=".d-md-block .d-lg-block col-md-6">
+        <img
+          className="img-fluid  "
+          src={expImg}
+          alt="Assistant System Engineer Position"
+        />
       </div>
     </div>
   );

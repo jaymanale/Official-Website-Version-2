@@ -4,12 +4,12 @@ import interestsImg from './../resources/svg/interests.svg';
 const Interests = () => {
   return (
     <React.Fragment>
-      <h1>Interests</h1>
-      <div className="row">
+      <div className="row  py-4">
         <div className="col-sm-12 col-md-6">
+          <h1>Interests</h1>
           <img className="img-fluid" src={interestsImg} alt="Interests" />
         </div>
-        <div className="col-sm-12 col-md-6">
+        <div className="col-sm-12 col-md-6 py-5">
           <ul>
             <li>
               Apart from being a web developer, I also enjoy solving problem

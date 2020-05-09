@@ -6,11 +6,11 @@ const TechnicalProjects = () => {
   let projects = getTechnicalProjectsData();
   return (
     <React.Fragment>
-      <h1 className="m-2">Technial Projects</h1>
-      <div className="row">
+      <h1 className="m-2 pt-4">Technial Projects</h1>
+      <div className="row py-3">
         {projects.map((project) => {
           return (
-            <div key={project.title} className="col-sm-12 col-md-4">
+            <div key={project.title} className="col-sm-12 col-md-5 m-auto ">
               <ProjectCard {...project} />
             </div>
           );
@@ -22,12 +22,12 @@ const TechnicalProjects = () => {
 
 const ProjectCard = (props) => {
   return (
-    <div className="card text-center cardStyle m-1">
+    <div className="card text-center cardStyle my-4">
       <div className="card-img-top bg-primary">
         <p> </p>
       </div>
       <div className="card-body">
-        <h5 className="card-title">{props.title}</h5>
+        <h5 className="card-title font-weight-bold">{props.title}</h5>
         <p className="card-text">{props.description}</p>
         <div className="m-2">
           {props.techStack.map((stack) => {
@@ -41,24 +41,24 @@ const ProjectCard = (props) => {
           })}
         </div>
         <div className="text-center">
-          <button className="btn btn-primary mx-2">
-            <a href={props.demoLink}>
+          <a href={props.demoLink} alt="Demo Button">
+            <button className="btn btn-primary mx-2">
               <i
                 className="fas fa-globe-asia mx-2"
                 style={{ color: '#ffffff' }}
               ></i>
-            </a>
-            Demo
-          </button>
-          <button className="btn btn-dark text-white mx-2">
-            <a href={props.githubLink}>
+              Demo
+            </button>
+          </a>
+          <a href={props.githubLink} alt="Github Button">
+            <button className="btn btn-dark text-white mx-2">
               <i
                 className="fab fa-github mx-2"
                 style={{ color: '#ffffff' }}
               ></i>
-            </a>
-            Github
-          </button>
+              Github
+            </button>
+          </a>
         </div>
       </div>
     </div>
