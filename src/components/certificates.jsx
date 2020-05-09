@@ -5,7 +5,9 @@ const Certificates = () => {
   let certificates = getCertificatesData();
   return (
     <React.Fragment>
-      <h1 className="pt-4">Certificates</h1>
+      <h1 className="pt-4" id="certificates">
+        Certificates
+      </h1>
       <div className="row py-4">
         {certificates.map((certifiate) => {
           return (

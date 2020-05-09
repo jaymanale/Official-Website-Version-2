@@ -4,7 +4,7 @@ import skillsImg from './../resources/svg/skills.svg';
 const Skills = () => {
   return (
     <React.Fragment>
-      <div className="row  py-5">
+      <div className="row  pt-5" id="skills">
         <div className="col-sm-12 col-md-6">
           <h1 className="m-2">Skills</h1>
           <img className="img-fluid" src={skillsImg} alt="Skills" />

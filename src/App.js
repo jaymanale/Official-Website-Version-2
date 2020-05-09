@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Navbar from './components/navbar';
 import Main from './components/main';
 import Experience from './components/experience';
 import Skills from './components/skills';
@@ -12,7 +14,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container">
+      <Navbar />
       <Main />
       <Experience />
       <Skills />

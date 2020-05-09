@@ -3,9 +3,9 @@ import educationImg from './../resources/svg/education.svg';
 const Education = () => {
   return (
     <React.Fragment>
-      <div className="row  py-4">
+      <div className="row  pt-5" id="education">
         <div className="col-sm-12 col-md-6">
-          <h1>Education</h1>
+          <h1 className="m-2">Education</h1>
           <img src={educationImg} className="img-fluid" alt="Education" />
         </div>
         <div className="col-sm-12 col-md-6 py-5">

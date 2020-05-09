@@ -6,8 +6,8 @@ const OnlineContribution = () => {
   let onlineContributionData = getContributionData();
   return (
     <React.Fragment>
-      <h1 className="m-2 pt-4">Online Contribution</h1>
-      <div className="row  py-4">
+      <div className="row  pt-5" id="Contribution">
+        <h1 className="m-2 col-sm-12 col-md-12">Online Contribution</h1>
         {onlineContributionData.map((contribution) => {
           return (
             <div

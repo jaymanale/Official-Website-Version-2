@@ -6,8 +6,8 @@ const TechnicalProjects = () => {
   let projects = getTechnicalProjectsData();
   return (
     <React.Fragment>
-      <h1 className="m-2 pt-4">Technial Projects</h1>
-      <div className="row py-3">
+      <div className="row pt-5" id="projects">
+        <h1 className="mt-2 col-sm-12 col-md-12">Tech Projects</h1>
         {projects.map((project) => {
           return (
             <div key={project.title} className="col-sm-12 col-md-5 m-auto ">
