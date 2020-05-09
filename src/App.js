@@ -1,6 +1,9 @@
 import React from 'react';
 import Main from './components/main';
 import Experience from './components/experience';
+import Skills from './components/skills';
+import Education from './components/education';
+
 import './App.css';
 
 function App() {
@@ -8,6 +11,8 @@ function App() {
     <div className="container">
       <Main />
       <Experience />
+      <Skills />
+      <Education />
     </div>
   );
 }
