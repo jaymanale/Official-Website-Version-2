@@ -6,6 +6,8 @@ import Education from './components/education';
 import Interests from './components/interests';
 import OnlineContribution from './components/onlineContribution';
 import TechnicalProjects from './components/technicalProjects';
+import Certificates from './components/certificates.jsx';
+
 import './App.css';
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
       <Interests />
       <OnlineContribution />
       <TechnicalProjects />
+      <Certificates />
     </div>
   );
 }
