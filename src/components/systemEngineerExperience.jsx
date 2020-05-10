@@ -3,7 +3,7 @@ import expImg from './../resources/animate/experience.svg';
 
 const SystemEngineerExperience = () => {
   return (
-    <div className="row  pt-5">
+    <div className="row  pt-5 ">
       <div className="col-sm-12 col-md-6">
         <h1 className="m-2">Experience</h1>
         <img

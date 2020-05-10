@@ -14,7 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="container">
+    <React.Fragment>
       <Navbar />
       <Main />
       <Experience />
@@ -23,8 +23,8 @@ function App() {
       <Interests />
       <OnlineContribution />
       <TechnicalProjects />
-      <Certificates />
-    </div>
+      * <Certificates />
+    </React.Fragment>
   );
 }
 

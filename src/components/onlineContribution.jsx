@@ -6,18 +6,20 @@ const OnlineContribution = () => {
   let onlineContributionData = getContributionData();
   return (
     <React.Fragment>
-      <div className="row  pt-5" id="Contribution">
-        <h1 className="m-2 col-sm-12 col-md-12">Online Contribution</h1>
-        {onlineContributionData.map((contribution) => {
-          return (
-            <div
-              key={contribution.title}
-              className="col-sm-12 col-md-5  m-auto"
-            >
-              <Card {...contribution} />
-            </div>
-          );
-        })}
+      <div className="container-fluid" id="Contribution">
+        <div className="row  pt-5">
+          <h1 className="my-2 col-sm-12 col-md-12">Online Contribution</h1>
+          {onlineContributionData.map((contribution) => {
+            return (
+              <div
+                key={contribution.title}
+                className="col-sm-12 col-md-5 m-auto "
+              >
+                <Card {...contribution} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </React.Fragment>
   );
@@ -27,7 +29,10 @@ const Card = ({ icon, title, description, link, buttonTitle, iconColor }) => {
   let style = 'fab fa-4x card-img-top m-1 fa-';
   style += icon;
   return (
-    <div className="card text-center cardStyle m-2">
+    <div className="card text-center cardStyle my-4">
+      <div className="card-img-top gradiantRed">
+        <p> </p>
+      </div>
       <i className={style} style={{ color: iconColor }}></i>
 
       <div className="card-body">

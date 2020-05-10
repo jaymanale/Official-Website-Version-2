@@ -3,7 +3,7 @@ import AssistantExperience from './assistantExperience';
 import SystemEngineerExperience from './systemEngineerExperience';
 const Experience = () => {
   return (
-    <div id="experience">
+    <div className="container-fluid " id="experience">
       <SystemEngineerExperience />
       <AssistantExperience />
     </div>

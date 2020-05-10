@@ -5,20 +5,20 @@ const Certificates = () => {
   let certificates = getCertificatesData();
   return (
     <React.Fragment>
-      <h1 className="pt-4" id="certificates">
-        Certificates
-      </h1>
-      <div className="row py-4">
-        {certificates.map((certifiate) => {
-          return (
-            <div
-              key={certifiate.certificateId}
-              className="col-sm-12 col-md-6 m-auto"
-            >
-              <CertificateCard {...certifiate} />
-            </div>
-          );
-        })}
+      <div className="container-fluid">
+        <div className="row py-4">
+          <h1 className="my-2 col-sm-12 col-md-12"> Certificates</h1>
+          {certificates.map((certifiate) => {
+            return (
+              <div
+                key={certifiate.certificateId}
+                className="col-sm-12 col-md-5 m-auto"
+              >
+                <CertificateCard {...certifiate} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </React.Fragment>
   );
@@ -32,8 +32,8 @@ const CertificateCard = ({
   link,
 }) => {
   return (
-    <div className="card text-center cardStyle m-2">
-      <div className="card-img-top bg-success">
+    <div className="card text-center cardStyle my-4">
+      <div className="card-img-top gradiantRed">
         <p> </p>
       </div>
       <div className="card-body">

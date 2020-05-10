@@ -6,15 +6,17 @@ const TechnicalProjects = () => {
   let projects = getTechnicalProjectsData();
   return (
     <React.Fragment>
-      <div className="row pt-5" id="projects">
-        <h1 className="mt-2 col-sm-12 col-md-12">Tech Projects</h1>
-        {projects.map((project) => {
-          return (
-            <div key={project.title} className="col-sm-12 col-md-5 m-auto ">
-              <ProjectCard {...project} />
-            </div>
-          );
-        })}
+      <div className="container-fluid" id="projects">
+        <div className="row pt-5">
+          <h1 className="my-2 col-sm-12 col-md-12">Tech Projects</h1>
+          {projects.map((project) => {
+            return (
+              <div key={project.title} className="col-sm-12 col-md-5 m-auto ">
+                <ProjectCard {...project} />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </React.Fragment>
   );
@@ -23,7 +25,7 @@ const TechnicalProjects = () => {
 const ProjectCard = (props) => {
   return (
     <div className="card text-center cardStyle my-4">
-      <div className="card-img-top bg-primary">
+      <div className="card-img-top gradiantRed">
         <p> </p>
       </div>
       <div className="card-body">
