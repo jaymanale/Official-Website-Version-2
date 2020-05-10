@@ -1,5 +1,5 @@
 import React from 'react';
-import expImg from './../resources/svg/experience.svg';
+import expImg from './../resources/animate/experienceJr.svg';
 const AssistantExperience = () => {
   return (
     <div className="row  py-5">

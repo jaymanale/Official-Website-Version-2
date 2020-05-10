@@ -10,10 +10,17 @@ const Education = () => {
             <img src={educationImg} className="img-fluid" alt="Education" />
           </div>
           <div className="col-sm-12 col-md-6 py-5">
-            <h3>Engineering</h3>
-            <div>engineering description</div>
-            <h3>Diploma</h3>
-            <div>diploma description</div>
+            <div className="py-3">
+              <h3>Engineering</h3>
+              Savitribai Phule Pune University
+              <span className="float-right">June 2013 - May 2016</span>
+            </div>
+
+            <div className="py-3">
+              <h3>Diploma</h3>
+              Maharashtra State Board of Technical Education
+              <span className="float-right">June 2011 - May 2013</span>
+            </div>
           </div>
         </div>
       </div>
