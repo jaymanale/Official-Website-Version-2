@@ -21,13 +21,13 @@ const Skills = () => {
             <h3 className="col-sm-12 col-md-12 my-4">Front End</h3>
             <div className="row m-auto">
               {frontendSkils.map((skill) => (
-                <SkillCard {...skill} />
+                <SkillCard key={skill.title} {...skill} />
               ))}
             </div>
             <h3 className="col-sm-12 col-md-12 my-4">Backend End</h3>
             <div className="row m-auto">
               {backendSkills.map((skill) => (
-                <SkillCard {...skill} />
+                <SkillCard key={skill.title} {...skill} />
               ))}
             </div>
           </div>

@@ -8,7 +8,6 @@ const Certificates = () => {
       <div className="container-fluid">
         <div className="row py-4">
           <h1 className="my-2 col-sm-12 col-md-12 font-weight-bold">
-            {' '}
             Certificates
           </h1>
           {certificates.map((certifiate) => {

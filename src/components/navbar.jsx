@@ -7,8 +7,11 @@ const Navbar = () => {
         className="  navbar navbar-expand-lg navbar-dark gradiantRed fixed-top text-white"
         id="sideNav"
       >
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <span className="d-block d-lg-none">Jayram Manale</span>
+        <a
+          className="navbar-brand js-scroll-trigger"
+          href="https://official-website-v2.netlify.app/"
+        >
+          <span className="d-block  ">JNM</span>
         </a>
         <button
           className="navbar-toggler"
@@ -67,7 +70,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 className="nav-link js-scroll-trigger"
-                href="./../resources/resume/resume.PDF"
+                href="./../resources/resume/resume.pdf"
               >
                 Resume
               </a>

@@ -23,7 +23,10 @@ function App() {
       <Interests />
       <OnlineContribution />
       <TechnicalProjects />
-      * <Certificates />
+      <Certificates />
+      <div className="text-center colorGradiant text-white">
+        Made with <i class="fas fa-heart "></i> in India
+      </div>
     </React.Fragment>
   );
 }
