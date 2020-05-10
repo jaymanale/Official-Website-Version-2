@@ -4,7 +4,7 @@ const technicalProjects = [
     description: 'Web Application to take notes, perform all CRUD operation.',
     techStack: [
       {
-        iconClass: 'fab fa-react fa-2x',
+        iconClass: 'fab fa-react fa-3x',
         iconColor: { color: '#61dbfb' },
       },
     ],
@@ -17,7 +17,7 @@ const technicalProjects = [
       'Web Application to get statics of covid-19 report based on country',
     techStack: [
       {
-        iconClass: 'fab fa-react  fa-2x',
+        iconClass: 'fab fa-react  fa-3x',
         iconColor: { color: '#61dbfb' },
       },
     ],
@@ -29,7 +29,7 @@ const technicalProjects = [
     description: 'Web Application to see randomly generated meme',
     techStack: [
       {
-        iconClass: 'fab fa-react  fa-2x',
+        iconClass: 'fab fa-react  fa-3x',
         iconColor: { color: '#61dbfb' },
       },
     ],

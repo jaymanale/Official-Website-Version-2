@@ -8,7 +8,9 @@ const TechnicalProjects = () => {
     <React.Fragment>
       <div className="container-fluid" id="projects">
         <div className="row pt-5">
-          <h1 className="my-2 col-sm-12 col-md-12">Tech Projects</h1>
+          <h1 className="my-2 col-sm-12 col-md-12 font-weight-bold">
+            Tech Projects
+          </h1>
           {projects.map((project) => {
             return (
               <div key={project.title} className="col-sm-12 col-md-5 m-auto ">
@@ -29,8 +31,6 @@ const ProjectCard = (props) => {
         <p> </p>
       </div>
       <div className="card-body">
-        <h5 className="card-title font-weight-bold">{props.title}</h5>
-        <p className="card-text">{props.description}</p>
         <div className="m-2">
           {props.techStack.map((stack) => {
             return (
@@ -42,6 +42,9 @@ const ProjectCard = (props) => {
             );
           })}
         </div>
+        <h5 className="card-title font-weight-bold">{props.title}</h5>
+        <p className="card-text">{props.description}</p>
+
         <div className="text-center">
           <a href={props.demoLink} alt="Demo Button">
             <button className="btn btn-primary mx-2">

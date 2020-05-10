@@ -7,7 +7,10 @@ const Certificates = () => {
     <React.Fragment>
       <div className="container-fluid">
         <div className="row py-4">
-          <h1 className="my-2 col-sm-12 col-md-12"> Certificates</h1>
+          <h1 className="my-2 col-sm-12 col-md-12 font-weight-bold">
+            {' '}
+            Certificates
+          </h1>
           {certificates.map((certifiate) => {
             return (
               <div
@@ -37,7 +40,9 @@ const CertificateCard = ({
         <p> </p>
       </div>
       <div className="card-body">
-        <i className={providerIcon} style={providerIconStyle}></i>
+        <div className="m-2">
+          <i className={providerIcon} style={providerIconStyle}></i>
+        </div>
         <h5 className="card-title font-weight-bold">{title}</h5>
         <p>Credential ID - {certificateId}</p>
         <button className="btn btn-primary  m-1">

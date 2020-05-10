@@ -8,7 +8,9 @@ const OnlineContribution = () => {
     <React.Fragment>
       <div className="container-fluid" id="Contribution">
         <div className="row  pt-5">
-          <h1 className="my-2 col-sm-12 col-md-12">Online Contribution</h1>
+          <h1 className="my-2 col-sm-12 col-md-12 font-weight-bold">
+            Online Contribution
+          </h1>
           {onlineContributionData.map((contribution) => {
             return (
               <div
