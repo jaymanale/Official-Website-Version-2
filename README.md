@@ -1,4 +1,4 @@
- <h1 align="center">Welcome to My Portfolio Wesite 👋</h1>
+ <h1 align="center">Welcome to My Portfolio Wesite v2 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/JayManale" target="_blank">
