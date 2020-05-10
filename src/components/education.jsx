@@ -1,5 +1,5 @@
 import React from 'react';
-import educationImg from './../resources/svg/education.svg';
+import educationImg from './../resources/animate/education.svg';
 const Education = () => {
   return (
     <React.Fragment>

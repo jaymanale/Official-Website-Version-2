@@ -66,7 +66,7 @@ const Navbar = () => {
           <li className="nav-item">
             <a
               className="nav-link js-scroll-trigger"
-              href="./resume/Resume.pdf"
+              href="./../resources/resume/resume.PDF"
             >
               Resume
             </a>

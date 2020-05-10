@@ -1,5 +1,5 @@
 import React from 'react';
-import mainImg from './../resources/svg/main.svg';
+import mainImg from './../resources/animate/main.svg';
 
 const Main = () => {
   return (

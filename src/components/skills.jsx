@@ -1,5 +1,5 @@
 import React from 'react';
-import skillsImg from './../resources/svg/skills.svg';
+import skillsImg from './../resources/animate/skills.svg';
 
 const Skills = () => {
   return (

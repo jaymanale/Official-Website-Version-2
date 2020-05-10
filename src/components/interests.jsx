@@ -1,5 +1,5 @@
 import React from 'react';
-import interestsImg from './../resources/svg/interests.svg';
+import interestsImg from './../resources/animate/interests.svg';
 
 const Interests = () => {
   return (
