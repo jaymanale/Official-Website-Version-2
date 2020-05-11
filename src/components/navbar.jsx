@@ -1,5 +1,5 @@
 import React from 'react';
-
+import resume from './../resources/resume/resume.PDF';
 const Navbar = () => {
   return (
     <div className="container-fluid">
@@ -11,7 +11,7 @@ const Navbar = () => {
           className="navbar-brand js-scroll-trigger"
           href="https://official-website-v2.netlify.app/"
         >
-          <span className="d-block  ">JNM</span>
+          <span className="d-block ">JM</span>
         </a>
         <button
           className="navbar-toggler"
@@ -68,10 +68,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a
-                className="nav-link js-scroll-trigger"
-                href="./../resources/resume/resume.pdf"
-              >
+              <a className="nav-link js-scroll-trigger" href={resume}>
                 Resume
               </a>
             </li>

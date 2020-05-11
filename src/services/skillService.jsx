@@ -24,6 +24,10 @@ const backEndSkills = [
     title: 'Java',
   },
   {
+    icon: 'fab fa-node-js fa-4x',
+    title: 'Node (learning)',
+  },
+  {
     icon: 'fas fa-database fa-4x',
     title: 'PostgreSQL',
   },

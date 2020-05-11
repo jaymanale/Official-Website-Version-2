@@ -39,7 +39,7 @@ const Skills = () => {
 
 const SkillCard = ({ icon, title }) => {
   return (
-    <div className="d-inline m-2 px-2 text-center">
+    <div className="col col-sm-3 text-center">
       <i className={icon}></i>
       <p>{title}</p>
     </div>

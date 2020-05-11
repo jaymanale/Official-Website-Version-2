@@ -12,7 +12,7 @@ const Main = () => {
           <img
             className="img-fluid img-profile rounded-circle mx-auto mb-2"
             src={ProfileImg}
-            alt="Jayram Photo"
+            alt="Jayram profile"
             style={{ border: '1rem solid rgba(255, 255, 255, 0.2)' }}
           />
           <h1 className="font-weight-bold mt-3">Hi,</h1>
