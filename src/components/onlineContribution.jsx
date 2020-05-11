@@ -6,7 +6,7 @@ const OnlineContribution = () => {
   let onlineContributionData = getContributionData();
   return (
     <React.Fragment>
-      <div className="container-fluid" id="Contribution">
+      <div className="container-fluid" id="contribution">
         <div className="row  pt-5">
           <h1 className="my-2 col-sm-12 col-md-12 font-weight-bold">
             Online Contribution
