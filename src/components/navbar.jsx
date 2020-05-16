@@ -46,7 +46,7 @@ const Navbar = () => {
 
 const NavLink = ({ navId, title }) => {
   return (
-    <li className="nav-item">
+    <li className="nav-item d-none d-lg-block">
       <a className="nav-link js-scroll-trigger" href={navId}>
         {title}
       </a>

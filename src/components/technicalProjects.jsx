@@ -6,7 +6,7 @@ const TechnicalProjects = () => {
   let projects = getTechnicalProjectsData();
   return (
     <React.Fragment>
-      <div className="container-fluid" id="projects">
+      <div className="container-fluid bg-light" id="projects">
         <div className="row pt-5">
           <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
             Tech Projects

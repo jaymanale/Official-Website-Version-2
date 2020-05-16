@@ -27,7 +27,7 @@ const AssistantExperience = () => {
           </li>
         </ul>
       </div>
-      <div className=".d-md-block .d-lg-block col-md-6">
+      <div className="d-none  d-md-block d-lg-block col-md-6">
         <img
           className="img-fluid  "
           src={expImg}

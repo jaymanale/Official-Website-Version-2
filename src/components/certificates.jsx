@@ -5,7 +5,7 @@ const Certificates = () => {
   let certificates = getCertificatesData();
   return (
     <React.Fragment>
-      <div className="container-fluid" id="certificates">
+      <div className="container-fluid bg-light" id="certificates">
         <div className="row py-4">
           <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
             Certificates
