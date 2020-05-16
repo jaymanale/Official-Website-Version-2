@@ -10,7 +10,7 @@ const Main = () => {
       <div className="row text-center mt-5 " id="about">
         <div className="col-sm-12 col-md-6 mt-5 text-white">
           <img
-            className="img-fluid img-profile rounded-circle mx-auto mb-2"
+            className="img-fluid img-profile rounded-circle mx-auto m-4"
             src={ProfileImg}
             alt="Jayram profile"
             style={{ border: '1rem solid rgba(255, 255, 255, 0.2)' }}

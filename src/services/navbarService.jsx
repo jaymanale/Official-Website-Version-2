@@ -16,10 +16,6 @@ const navbarLink = [
     title: 'Education',
   },
   {
-    navId: '',
-    title: '',
-  },
-  {
     navId: '#interests',
     title: 'Interests',
   },

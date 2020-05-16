@@ -7,7 +7,6 @@ const frontEndSkills = [
     icon: 'fab fa-css3-alt fa-4x',
     title: 'CSS 3',
   },
-
   {
     icon: 'fab fa-js-square fa-4x',
     title: 'Javascript',

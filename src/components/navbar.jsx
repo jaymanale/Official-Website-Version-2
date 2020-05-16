@@ -28,7 +28,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
+          <ul className="nav navbar-nav">
             {navLiinks.map((link) => (
               <NavLink key={link.navId} {...link} />
             ))}

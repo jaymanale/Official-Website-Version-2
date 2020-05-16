@@ -13,7 +13,7 @@ const Skills = () => {
       <div className="container-fluid gradiantRed text-white">
         <div className="row  pt-5" id="skills">
           <div className="col-sm-12 col-md-6">
-            <h1 className="m-2 font-weight-bold">Skills</h1>
+            <h1 className="mt-4 font-weight-bold">Skills</h1>
             <img className="img-fluid" src={skillsImg} alt="Skills" />
           </div>
 
@@ -39,7 +39,7 @@ const Skills = () => {
 
 const SkillCard = ({ icon, title }) => {
   return (
-    <div className="col col-sm-3 text-center">
+    <div className="col-4 col-sm-3 text-center">
       <i className={icon}></i>
       <p>{title}</p>
     </div>

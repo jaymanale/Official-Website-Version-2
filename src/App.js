@@ -26,7 +26,7 @@ function App() {
       <Certificates />
 
       <div className="text-center colorGradiant text-white">
-        Made with <i className="fas fa-heart "></i> in India - version 2.0
+        Made with <i className="fas fa-heart "></i> in India
       </div>
     </React.Fragment>
   );

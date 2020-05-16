@@ -7,7 +7,7 @@ const Certificates = () => {
     <React.Fragment>
       <div className="container-fluid" id="certificates">
         <div className="row py-4">
-          <h1 className="my-2 col-sm-12 col-md-12 font-weight-bold">
+          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
             Certificates
           </h1>
           {certificates.map((certifiate) => {

@@ -5,7 +5,7 @@ const SystemEngineerExperience = () => {
   return (
     <div className="row  pt-5 ">
       <div className="col-sm-12 col-md-6">
-        <h1 className="m-2 font-weight-bold">Experience</h1>
+        <h1 className="mt-4 font-weight-bold">Experience</h1>
         <img
           className="img-fluid"
           src={expImg}
