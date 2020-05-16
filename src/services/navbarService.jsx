@@ -24,13 +24,14 @@ const navbarLink = [
     title: 'Interests',
   },
   {
-    navId: '#contribution',
-    title: 'Contribution',
-  },
-  {
     navId: '#projects',
     title: 'Projects',
   },
+  {
+    navId: '#contribution',
+    title: 'Contribution',
+  },
+
   {
     navId: '#certificates',
     title: 'Certificates',

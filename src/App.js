@@ -8,7 +8,7 @@ import Education from './components/education';
 import Interests from './components/interests';
 import OnlineContribution from './components/onlineContribution';
 import TechnicalProjects from './components/technicalProjects';
-import Certificates from './components/certificates.jsx';
+import Certificates from './components/certificates';
 
 import './App.css';
 
@@ -21,11 +21,12 @@ function App() {
       <Skills />
       <Education />
       <Interests />
-      <OnlineContribution />
       <TechnicalProjects />
+      <OnlineContribution />
       <Certificates />
+
       <div className="text-center colorGradiant text-white">
-        Made with <i class="fas fa-heart "></i> in India
+        Made with <i className="fas fa-heart "></i> in India - version 2.0
       </div>
     </React.Fragment>
   );
