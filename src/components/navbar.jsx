@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div className="container-fluid">
       <nav
-        className="  navbar navbar-expand-lg navbar-dark gradiantRed fixed-top text-white"
+        className="  navbar navbar-expand-lg navbar-dark gradiantRed fixed-top text-white py-0"
         id="sideNav"
       >
         <a
