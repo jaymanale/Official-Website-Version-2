@@ -1,5 +1,17 @@
 const technicalProjects = [
   {
+    title: 'Marvel Universe',
+    description: 'Web Application where you can get details about Characters, comics etc in Marvel Universe.',
+    techStack: [
+      {
+        iconClass: 'fab fa-react fa-3x',
+        iconColor: { color: '#61dbfb' },
+      },
+    ],
+    demoLink: 'https://marvel-universe.netlify.app/',
+    githubLink: 'https://github.com/jaymanale/Marvel-Project',
+  },
+  {
     title: 'Todo App',
     description: 'Web Application to take notes, perform all CRUD operation.',
     techStack: [
