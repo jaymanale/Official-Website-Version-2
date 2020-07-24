@@ -12,7 +12,7 @@ const Navbar = () => {
       >
         <a
           className="navbar-brand js-scroll-trigger"
-          href="https://official-website-v2.netlify.app/"
+          href="https://www.jayrammanale.com/"
         >
           <span className="d-block ">JM</span>
         </a>
