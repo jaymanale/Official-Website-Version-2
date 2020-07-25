@@ -37,6 +37,18 @@ const technicalProjects = [
     githubLink: 'https://github.com/jaymanale/covid-19-report',
   },
   {
+    title: 'Short News',
+    description: 'Web Application where you can get Top New in different Category',
+    techStack: [
+      {
+        iconClass: 'fab fa-react  fa-3x',
+        iconColor: { color: '#61dbfb' },
+      },
+    ],
+    demoLink: 'https://short-news.netlify.app/',
+    githubLink: 'https://github.com/jaymanale/Short-news',
+  },
+  {
     title: 'Random Meme',
     description: 'Web Application to see randomly generated meme',
     techStack: [
