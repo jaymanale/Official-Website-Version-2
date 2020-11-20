@@ -12,6 +12,10 @@ const frontEndSkills = [
     title: 'Javascript',
   },
   {
+    icon: 'fab fa-angular fa-4x',
+    title: 'Angular',
+  },
+  {
     icon: 'fab fa-react fa-4x',
     title: 'ReactJS',
   },
@@ -20,11 +24,7 @@ const frontEndSkills = [
 const backEndSkills = [
   {
     icon: 'fab fa-java fa-4x',
-    title: 'Java',
-  },
-  {
-    icon: 'fab fa-node-js fa-4x',
-    title: 'Node (learning)',
+    title: 'Java-Spring Boot',
   },
   {
     icon: 'fas fa-database fa-4x',
