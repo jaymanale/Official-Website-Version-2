@@ -1,4 +1,11 @@
 const certificates = [
+    {
+    certificateId: '7639BE59E9EF',
+    providerIcon: 'fab fa-hackerrank fa-3x',
+    providerIconStyle: { color: '#28a745' },
+    title: 'Java (Basic)',
+    link: 'https://www.hackerrank.com/certificates/7639be59e9ef',
+  },
   {
     certificateId: '6F0ECC5C89C8',
     providerIcon: 'fab fa-hackerrank fa-3x',
