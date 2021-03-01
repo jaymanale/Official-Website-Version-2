@@ -1,6 +1,6 @@
 import React from 'react';
 import getNavbarLinkData from './../services/navbarService';
-import resume from './../resources/resume/resume.PDF';
+import resume from './../resources/resume/resume.pdf';
 const Navbar = () => {
   let navLiinks = getNavbarLinkData();
 
