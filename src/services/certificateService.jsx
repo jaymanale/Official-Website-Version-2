@@ -20,6 +20,20 @@ const certificates = [
     title: 'Problem Solving (Basic)',
     link: 'https://www.hackerrank.com/certificates/99630bb6f503',
   },
+  {
+    certificateId: '61FBF9BD2BDA',
+    providerIcon: 'fab fa-hackerrank fa-3x',
+    providerIconStyle: { color: '#28a745' },
+    title: 'SQL (Intermediate)',
+    link: 'https://www.hackerrank.com/certificates/61fbf9bd2bda',
+  },
+  {
+    certificateId: '93011046C88C',
+    providerIcon: 'fab fa-hackerrank fa-3x',
+    providerIconStyle: { color: '#28a745' },
+    title: 'SQL (Basic)',
+    link: 'https://www.hackerrank.com/certificates/93011046c88c',
+  }
 ];
 
 const getCertificatesData = () => {
