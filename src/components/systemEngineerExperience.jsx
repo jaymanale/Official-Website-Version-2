@@ -13,7 +13,7 @@ const SystemEngineerExperience = () => {
         />
       </div>
       <div className="col-sm-12 col-md-6 my-5">
-        <h3>System Engineer</h3>
+        <h3>System Engineer @TCS</h3>
         <p>Project - Data Privacy Management</p>
         <ul>
           <li>
