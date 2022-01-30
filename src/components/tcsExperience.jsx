@@ -13,7 +13,7 @@ const TcsExperience = () => {
                     alt="System Engineer Position"
                 />  
             </div> */}
-            <div className="col-sm-12 col-md-12 my-1">
+            <div className="col-sm-12 col-md-12 mt-5">
                 <h3>System Engineer <span className="font-weight-bold">@TCS</span></h3>
 
                 <ul>

@@ -15,7 +15,7 @@ const CognizantExperience = () => {
                     
                 />  
             </div> */}
-            <div className="col-sm-12 col-md-12 my-5">
+            <div className="col-sm-12 col-md-12 mt-5">
                 <h3>Full Stack Engineer <span className="font-weight-bold"> @Cognizant</span>  </h3>
 
                 <ul>
