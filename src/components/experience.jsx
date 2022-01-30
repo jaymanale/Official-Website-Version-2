@@ -11,7 +11,7 @@ const Experience = () => {
     <div className="container-fluid bg-light " id="experience">
       {/* <SystemEngineerExperience />
       <AssistantExperience /> */}
-      <h1 className="mt-4 font-weight-bold">Experience</h1>
+      
       <CognizantExperience />
       <InfosysExperience />
       <TcsExperience />

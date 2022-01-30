@@ -1,21 +1,22 @@
 import React from 'react';
-import expImg from './../resources/svg/cognizant.svg';
+//import expImg from './../resources/svg/cognizant.svg';
 
 const CognizantExperience = () => {
     return (
-        <div className="row  pt-5">
+        <div className="row pt-1">
+            <h1 className="mt-1 font-weight-bold">Experience</h1>
             <div className="col-sm-12 col-md-6" style={{"textAlign": "center"}} >
-                
-                <img
+            <h1 className="mt-1 font-weight-bold">@Cognizant</h1>
+                {/* <img
                     className="img-fluid p-5"
                     style={{"height" : "65%", "width" : "65%"}}
                     src={expImg}
                     alt="System Engineer Position"
                     
-                />
+                /> */}
             </div>
             <div className="col-sm-12 col-md-6 my-5">
-                <h3>Full Stack Engineer <span className="font-weight-bold">@Cognizant</span></h3>
+                <h3>Full Stack Engineer  </h3>
 
                 <ul>
                     <li>

@@ -3,17 +3,17 @@ import expImg from './../resources/svg/tcs.svg';
 
 const TcsExperience = () => {
     return (
-        <div className="row  pt-5 ">
+        <div className="row  pt-1 ">
             <div className="col-sm-12 col-md-6" style={{"textAlign": "center"}} >
-               
-                <img
+            <h1 className="mt-1 font-weight-bold">@Tcs</h1>
+                {/* <img
                     className="img-fluid p-5"
                     style={{"height" : "65%", "width" : "65%"}}
                     src={expImg}
                     alt="System Engineer Position"
-                />
+                /> */}
             </div>
-            <div className="col-sm-12 col-md-6 my-5">
+            <div className="col-sm-12 col-md-6 my-1">
                 <h3>System Engineer <span className="font-weight-bold">@TCS</span></h3>
 
                 <ul>

@@ -3,9 +3,9 @@ import expImg from './../resources/svg/infosys.svg';
 
 const InfosysExperience = () => {
     return (
-        <div className="row  pt-5 ">
+        <div className="row  pt-1 ">
             
-            <div className="col-sm-12 col-md-6 my-5">
+            <div className="col-sm-12 col-md-6 my-1">
                 <h3>Senior Associate Consultant <span className="font-weight-bold">@Infosys</span></h3>
 
                 <ul>
@@ -20,13 +20,13 @@ const InfosysExperience = () => {
                 </ul>
             </div>
             <div className="col-sm-12 col-md-6" style={{"textAlign": "center"}}>
-               
-                <img
+            <h1 className="mt-1 font-weight-bold">@Infosys</h1>
+                {/* <img
                     className="img-fluid p-5"
                     style={{"height" : "65%", "width" : "65%"}}
                     src={expImg}
                     alt="System Engineer Position"
-                />
+                /> */}
             </div>
         </div>
     );
