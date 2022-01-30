@@ -7,7 +7,7 @@ const InfosysExperience = () => {
             <div className="col-sm-12 col-md-6">
                
                 <img
-                    className="img-fluid"
+                    className="img-fluid p-5"
                     src={expImg}
                     alt="System Engineer Position"
                 />

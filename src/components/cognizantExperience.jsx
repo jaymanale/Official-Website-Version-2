@@ -3,13 +3,14 @@ import expImg from './../resources/png/cognizant.png';
 
 const CognizantExperience = () => {
     return (
-        <div className="row  pt-5 ">
+        <div className="row  pt-5">
             <div className="col-sm-12 col-md-6">
                 <h1 className="mt-4 font-weight-bold">Experience</h1>
                 <img
-                    className="img-fluid"
+                    className="img-fluid p-5"
                     src={expImg}
                     alt="System Engineer Position"
+                    
                 />
             </div>
             <div className="col-sm-12 col-md-6 my-5">
