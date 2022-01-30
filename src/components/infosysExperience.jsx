@@ -19,10 +19,11 @@ const InfosysExperience = () => {
                     </li>
                 </ul>
             </div>
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-6" style={{"textAlign": "center"}}>
                
                 <img
                     className="img-fluid p-5"
+                    style={{"height" : "65%", "width" : "65%"}}
                     src={expImg}
                     alt="System Engineer Position"
                 />

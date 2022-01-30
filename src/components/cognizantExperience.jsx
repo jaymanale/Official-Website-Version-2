@@ -4,10 +4,11 @@ import expImg from './../resources/svg/cognizant.svg';
 const CognizantExperience = () => {
     return (
         <div className="row  pt-5">
-            <div className="col-sm-12 col-md-6">
-                <h1 className="mt-4 font-weight-bold">Experience</h1>
+            <div className="col-sm-12 col-md-6" style={{"textAlign": "center"}} >
+                
                 <img
                     className="img-fluid p-5"
+                    style={{"height" : "65%", "width" : "65%"}}
                     src={expImg}
                     alt="System Engineer Position"
                     
