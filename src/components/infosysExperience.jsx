@@ -1,19 +1,12 @@
 import React from 'react';
-import expImg from './../resources/png/infosys.png';
+import expImg from './../resources/svg/infosys.svg';
 
 const InfosysExperience = () => {
     return (
         <div className="row  pt-5 ">
-            <div className="col-sm-12 col-md-6">
-               
-                <img
-                    className="img-fluid p-5"
-                    src={expImg}
-                    alt="System Engineer Position"
-                />
-            </div>
+            
             <div className="col-sm-12 col-md-6 my-5">
-                <h3>Senior Associate Consultant</h3>
+                <h3>Senior Associate Consultant <span className="font-weight-bold">@Infosys</span></h3>
 
                 <ul>
                     <li>
@@ -25,6 +18,14 @@ const InfosysExperience = () => {
                         I have used technology like Java, SQL Developer.
                     </li>
                 </ul>
+            </div>
+            <div className="col-sm-12 col-md-6">
+               
+                <img
+                    className="img-fluid p-5"
+                    src={expImg}
+                    alt="System Engineer Position"
+                />
             </div>
         </div>
     );

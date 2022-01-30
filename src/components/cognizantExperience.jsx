@@ -1,5 +1,5 @@
 import React from 'react';
-import expImg from './../resources/png/cognizant.png';
+import expImg from './../resources/svg/cognizant.svg';
 
 const CognizantExperience = () => {
     return (
@@ -14,7 +14,7 @@ const CognizantExperience = () => {
                 />
             </div>
             <div className="col-sm-12 col-md-6 my-5">
-                <h3>Full Stack Engineer</h3>
+                <h3>Full Stack Engineer <span className="font-weight-bold">@Cognizant</span></h3>
 
                 <ul>
                     <li>

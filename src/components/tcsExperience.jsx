@@ -1,5 +1,5 @@
 import React from 'react';
-import expImg from './../resources/png/tcs.png';
+import expImg from './../resources/svg/tcs.svg';
 
 const TcsExperience = () => {
     return (
@@ -13,7 +13,7 @@ const TcsExperience = () => {
                 />
             </div>
             <div className="col-sm-12 col-md-6 my-5">
-                <h3>System Engineer</h3>
+                <h3>System Engineer <span className="font-weight-bold">@TCS</span></h3>
 
                 <ul>
                     <li>
