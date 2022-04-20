@@ -19,7 +19,7 @@ const Education = () => {
             <div className="py-3">
               <h3>Diploma</h3>
               Maharashtra State Board of Technical Education
-              <span className="float-right">June 2011 - May 2013</span>
+              <span className="float-right">June 2010 - May 2013</span>
             </div>
           </div>
         </div>
