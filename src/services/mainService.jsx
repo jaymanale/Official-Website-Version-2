@@ -10,7 +10,7 @@ const socialLink = [
     iconColor: { backgroundColor: '#333333' },
   },
   {
-    link: 'https://twitter.com/JayManale',
+    link: 'https://twitter.com/jayrammanale',
     icon: 'fab fa-twitter fa-1x',
     iconColor: { backgroundColor: '#00acee' },
   },
