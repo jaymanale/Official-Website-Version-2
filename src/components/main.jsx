@@ -1,6 +1,6 @@
 import React from 'react';
 import mainImg from './../resources/animate/main.svg';
-import ProfileImg from './../resources/png/profile.jpg';
+import ProfileImg from './../resources/png/profile2.png';
 import getSocialLinkData from './../services/mainService';
 
 const Main = () => {
