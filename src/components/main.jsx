@@ -1,7 +1,7 @@
-import React from 'react';
-import mainImg from './../resources/animate/main.svg';
-import ProfileImg from './../resources/png/profile3.png';
-import getSocialLinkData from './../services/mainService';
+import React from "react";
+import mainImg from "./../resources/animate/main.svg";
+import ProfileImg from "./../resources/png/profile3.png";
+import getSocialLinkData from "./../services/mainService";
 
 const Main = () => {
   let links = getSocialLinkData();
@@ -13,7 +13,7 @@ const Main = () => {
             className="img-fluid img-profile rounded-circle mx-auto m-4"
             src={ProfileImg}
             alt="Jayram profile"
-            style={{ border: '1rem solid rgba(255, 255, 255, 0.2)' }}
+            style={{ border: "1rem solid rgba(255, 255, 255, 0.2)" }}
           />
           <h1 className="font-weight-bold mt-3">Hi,</h1>
           <h2 className="font-weight-bold">I'm Jayram,</h2>
@@ -36,7 +36,13 @@ const Main = () => {
 
 const SocialCard = ({ link, icon, iconColor }) => {
   return (
-    <a className="mx-3" href={link} target="_blank" style={iconColor}>
+    <a
+      className="mx-3"
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={iconColor}
+    >
       <i className={icon}></i>
     </a>
   );

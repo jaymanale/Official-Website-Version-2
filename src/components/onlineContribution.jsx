@@ -1,6 +1,6 @@
-import React from 'react';
-import getContributionData from './../services/onlineContributionService';
-import './../styles/card.css';
+import React from "react";
+import getContributionData from "./../services/onlineContributionService";
+import "./../styles/card.css";
 
 const OnlineContribution = () => {
   let onlineContributionData = getContributionData();
@@ -8,7 +8,7 @@ const OnlineContribution = () => {
     <React.Fragment>
       <div className="container-fluid bg-light" id="contribution">
         <div className="row  pt-5">
-          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
+          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold textGradientColor">
             Online Contribution
           </h1>
           {onlineContributionData.map((contribution) => {
@@ -28,7 +28,7 @@ const OnlineContribution = () => {
 };
 
 const Card = ({ icon, title, description, link, buttonTitle, iconColor }) => {
-  let style = 'fab fa-4x card-img-top m-1 fa-';
+  let style = "fab fa-4x card-img-top m-1 fa-";
   style += icon;
   return (
     <div className="card text-center cardStyle my-4">

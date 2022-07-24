@@ -1,64 +1,66 @@
 const technicalProjects = [
   {
-    title: 'Marvel Universe',
-    description: 'Web Application where you can get details about Characters, comics etc in Marvel Universe.',
-    techStack: [
-      {
-        iconClass: 'fab fa-react fa-3x',
-        iconColor: { color: '#61dbfb' },
-      },
-    ],
-    demoLink: 'https://marvel-universe.netlify.app/',
-    githubLink: 'https://github.com/jaymanale/Marvel-Project',
-  },
-  {
-    title: 'Todo App',
-    description: 'Web Application to take notes, perform all CRUD operation.',
-    techStack: [
-      {
-        iconClass: 'fab fa-react fa-3x',
-        iconColor: { color: '#61dbfb' },
-      },
-    ],
-    demoLink: 'https://react-todo-firebase.netlify.app/',
-    githubLink: 'https://github.com/jaymanale/react-todo-firebase',
-  },
-  {
-    title: 'Covid-19 Report',
+    title: "Marvel Universe",
     description:
-      'Web Application to get statics of covid-19 report based on country',
+      "Web Application where you can get details about Characters, comics etc in Marvel Universe.",
     techStack: [
       {
-        iconClass: 'fab fa-react  fa-3x',
-        iconColor: { color: '#61dbfb' },
+        iconClass: "fab fa-react fa-3x",
+        iconColor: { color: "#61dbfb" },
       },
     ],
-    demoLink: 'https://covid-19-report-react.netlify.app/',
-    githubLink: 'https://github.com/jaymanale/covid-19-report',
+    demoLink: "https://marvel-universe.netlify.app/",
+    githubLink: "https://github.com/jaymanale/Marvel-Project",
+  },
+  // {
+  //   title: 'Todo App',
+  //   description: 'Web Application to take notes, perform all CRUD operation.',
+  //   techStack: [
+  //     {
+  //       iconClass: 'fab fa-react fa-3x',
+  //       iconColor: { color: '#61dbfb' },
+  //     },
+  //   ],
+  //   demoLink: 'https://react-todo-firebase.netlify.app/',
+  //   githubLink: 'https://github.com/jaymanale/react-todo-firebase',
+  // },
+  {
+    title: "Covid-19 Report",
+    description:
+      "Web Application to get statics of covid-19 report based on country",
+    techStack: [
+      {
+        iconClass: "fab fa-react  fa-3x",
+        iconColor: { color: "#61dbfb" },
+      },
+    ],
+    demoLink: "https://covid-19-report-react.netlify.app/",
+    githubLink: "https://github.com/jaymanale/covid-19-report",
   },
   {
-    title: 'Short News',
-    description: 'Web Application where you can get Top New in different Category',
+    title: "Short News",
+    description:
+      "Web Application where you can get Top New in different Category",
     techStack: [
       {
-        iconClass: 'fab fa-react  fa-3x',
-        iconColor: { color: '#61dbfb' },
+        iconClass: "fab fa-react  fa-3x",
+        iconColor: { color: "#61dbfb" },
       },
     ],
-    demoLink: 'https://short-news.netlify.app/',
-    githubLink: 'https://github.com/jaymanale/Short-news',
+    demoLink: "https://short-news.netlify.app/",
+    githubLink: "https://github.com/jaymanale/Short-news",
   },
   {
-    title: 'Random Meme',
-    description: 'Web Application to see randomly generated meme',
+    title: "Random Meme",
+    description: "Web Application to see randomly generated meme",
     techStack: [
       {
-        iconClass: 'fab fa-react  fa-3x',
-        iconColor: { color: '#61dbfb' },
+        iconClass: "fab fa-react  fa-3x",
+        iconColor: { color: "#61dbfb" },
       },
     ],
-    demoLink: 'https://random-meme-generator.netlify.app/',
-    githubLink: 'https://github.com/jaymanale/random-meme-generator',
+    demoLink: "https://random-meme-generator.netlify.app/",
+    githubLink: "https://github.com/jaymanale/random-meme-generator",
   },
 ];
 

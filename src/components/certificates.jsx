@@ -1,5 +1,5 @@
-import React from 'react';
-import getCertificatesData from './../services/certificateService';
+import React from "react";
+import getCertificatesData from "./../services/certificateService";
 
 const Certificates = () => {
   let certificates = getCertificatesData();
@@ -7,7 +7,7 @@ const Certificates = () => {
     <React.Fragment>
       <div className="container-fluid bg-light" id="certificates">
         <div className="row py-4">
-          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
+          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold textGradientColor">
             Certificates
           </h1>
           {certificates.map((certifiate) => {

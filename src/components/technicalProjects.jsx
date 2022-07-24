@@ -1,6 +1,6 @@
-import React from 'react';
-import getTechnicalProjectsData from './../services/technicalProjectService';
-import './../styles/card.css';
+import React from "react";
+import getTechnicalProjectsData from "./../services/technicalProjectService";
+import "./../styles/card.css";
 
 const TechnicalProjects = () => {
   let projects = getTechnicalProjectsData();
@@ -8,7 +8,7 @@ const TechnicalProjects = () => {
     <React.Fragment>
       <div className="container-fluid bg-light" id="projects">
         <div className="row pt-5">
-          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
+          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold textGradientColor">
             Tech Projects
           </h1>
           {projects.map((project) => {
@@ -50,7 +50,7 @@ const ProjectCard = (props) => {
             <button className="btn btn-primary mx-2">
               <i
                 className="fas fa-globe-asia mx-2"
-                style={{ color: '#ffffff' }}
+                style={{ color: "#ffffff" }}
               ></i>
               Demo
             </button>
@@ -59,7 +59,7 @@ const ProjectCard = (props) => {
             <button className="btn btn-dark text-white mx-2">
               <i
                 className="fab fa-github mx-2"
-                style={{ color: '#ffffff' }}
+                style={{ color: "#ffffff" }}
               ></i>
               Github
             </button>

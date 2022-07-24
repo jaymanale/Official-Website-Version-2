@@ -1,5 +1,5 @@
-import React from 'react';
-import interestsImg from './../resources/animate/interests.svg';
+import React from "react";
+import interestsImg from "./../resources/animate/interests.svg";
 
 const Interests = () => {
   return (
@@ -23,6 +23,7 @@ const Interests = () => {
                 free time exploring the latest technology advancements in the
                 web development world.
               </li>
+              <li>Love to travel and Exercie (GYM)</li>
             </ul>
           </div>
         </div>
