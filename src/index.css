@@ -53,6 +53,20 @@ background: linear-gradient(to right, #0052D4, #65C7F7, #9CECFB); /* W3C, IE 10+
   -webkit-text-fill-color: transparent;
  
 }
+.textGradientColorButton{
+  background: -webkit-linear-gradient(320deg, #0052D4 20%, #9CECFB 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
+.textGradientColorBlackButton{
+  background: -webkit-linear-gradient(320deg, #000000 20%, #434343 70%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+}
 
 .social-icons a {
   display: inline-block;

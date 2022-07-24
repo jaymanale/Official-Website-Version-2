@@ -47,7 +47,7 @@ const ProjectCard = (props) => {
 
         <div className="text-center">
           <a href={props.demoLink} alt="Demo Button">
-            <button className="btn btn-primary mx-2">
+            <button className="btn btn-primary mx-2 font-weight-bold textGradientColorButton">
               <i
                 className="fas fa-globe-asia mx-2"
                 style={{ color: "#ffffff" }}
@@ -56,7 +56,7 @@ const ProjectCard = (props) => {
             </button>
           </a>
           <a href={props.githubLink} alt="Github Button">
-            <button className="btn btn-dark text-white mx-2">
+            <button className="btn btn-dark text-white mx-2 font-weight-bold textGradientColorBlackButton">
               <i
                 className="fab fa-github mx-2"
                 style={{ color: "#ffffff" }}

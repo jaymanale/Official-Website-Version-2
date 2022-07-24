@@ -41,7 +41,9 @@ const Card = ({ icon, title, description, link, buttonTitle, iconColor }) => {
         <h5 className="card-title font-weight-bold">{title}</h5>
         <p className="card-text">{description}</p>
         <a href={link} alt={title}>
-          <button className="btn btn-primary m-1">{buttonTitle}</button>
+          <button className="btn btn-primary m-1 font-weight-bold textGradientColorButton">
+            {buttonTitle}
+          </button>
         </a>
       </div>
     </div>

@@ -44,7 +44,7 @@ const CertificateCard = ({
         </div>
         <h5 className="card-title font-weight-bold">{title}</h5>
         <p>Credential ID - {certificateId}</p>
-        <button className="btn btn-primary  m-1">
+        <button className="btn btn-primary font-weight-bold m-1 textGradientColorButton">
           <a href={link} alt={title} className="text-white">
             See Credential
           </a>
