@@ -6,13 +6,15 @@ const InfosysExperience = () => {
       <div className="col-sm-12 col-md-12 mt-5">
         <h3>
           Senior Associate Consultant{" "}
-          <span className="font-weight-bold">@Infosys</span>
+          <span className="font-weight-bold textGradientColorButton">
+            @Infosys
+          </span>
         </h3>
 
         <ul>
           <li>
             Work on banking application using agile methodology. I was
-            <span className="mark">
+            <span className="mark font-weight-bold">
               responsible for implementing User Story as well as Testing and
               fixing bugs. It is a distributed and complex architecture system
               where code is distributed across more then 10 services
@@ -20,7 +22,7 @@ const InfosysExperience = () => {
           </li>
           <li>
             I have used technology like
-            <span className="mark">Java, SQL Developer.</span>
+            <span className="mark font-weight-bold">Java, SQL Developer.</span>
           </li>
         </ul>
       </div>

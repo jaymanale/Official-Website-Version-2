@@ -10,20 +10,25 @@ const CognizantExperience = () => {
       <div className="col-sm-12 col-md-12 mt-5">
         <h3>
           Full Stack Engineer
-          <span className="font-weight-bold"> @Cognizant</span>
+          <span className="font-weight-bold textGradientColorButton">
+            {" "}
+            @Cognizant
+          </span>
         </h3>
 
         <ul>
           <li>
             Working Wireless network operator application using agile
             methodology. I was
-            <span className="mark">
+            <span className="mark font-weight-bold">
               responsible for implementing User Story, Testing and fixing bugs.
             </span>
           </li>
           <li>
             I have used technology like
-            <span className="mark">ReactJS, GraphQL, Reactive spring.</span>
+            <span className="mark font-weight-bold">
+              ReactJS, GraphQL, Reactive spring.
+            </span>
           </li>
         </ul>
       </div>
