@@ -23,7 +23,7 @@ const Interests = () => {
                 free time exploring the latest technology advancements in the
                 web development world.
               </li>
-              <li>Love to travel and Exercie (GYM)</li>
+              <li>Love to Travel and Exercise (GYM)</li>
             </ul>
           </div>
         </div>
