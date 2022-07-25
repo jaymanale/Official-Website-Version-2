@@ -26,7 +26,13 @@ function App() {
       <Certificates />
 
       <div className="text-center colorGradiant text-white">
-        Made with <i className="fas fa-heart text-danger"></i> in India
+        Made with <i className="fas fa-heart text-danger"></i> by
+        <a
+          href="https://github.com/jaymanale"
+          className="text-secondary text-decoration-none text-light"
+        >
+          &nbsp; Jayram Manale
+        </a>
       </div>
     </React.Fragment>
   );
