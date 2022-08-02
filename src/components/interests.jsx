@@ -8,7 +8,12 @@ const Interests = () => {
         <div className="row  pt-5" id="interests">
           <div className="col-sm-12 col-md-6">
             <h1 className="mt-4 font-weight-bold">Interests</h1>
-            <img className="img-fluid" src={interestsImg} alt="Interests" />
+            <img
+              loading="lazy"
+              className="img-fluid"
+              src={interestsImg}
+              alt="Interests"
+            />
           </div>
           <div className="col-sm-12 col-md-6 py-5">
             <ul>

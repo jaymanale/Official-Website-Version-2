@@ -1,9 +1,9 @@
-import React from 'react';
-import skillsImg from './../resources/animate/skills.svg';
+import React from "react";
+import skillsImg from "./../resources/animate/skills.svg";
 import {
   getFrontEndSkillsData,
   getBackEndSkillsData,
-} from './../services/skillService';
+} from "./../services/skillService";
 
 const Skills = () => {
   let frontendSkils = getFrontEndSkillsData();
@@ -14,7 +14,12 @@ const Skills = () => {
         <div className="row  pt-5" id="skills">
           <div className="col-sm-12 col-md-6">
             <h1 className="mt-4 font-weight-bold">Skills</h1>
-            <img className="img-fluid" src={skillsImg} alt="Skills" />
+            <img
+              loading="lazy"
+              className="img-fluid"
+              src={skillsImg}
+              alt="Skills"
+            />
           </div>
 
           <div className="col-sm-12 col-md-6 py-5">

@@ -10,6 +10,7 @@ const Main = () => {
       <div className="row text-center mt-5 " id="about">
         <div className="col-sm-12 col-md-6 mt-5 text-white">
           <img
+            loading="lazy"
             className="img-fluid img-profile rounded-circle mx-auto m-4"
             src={ProfileImg}
             alt="Jayram profile"
@@ -27,14 +28,19 @@ const Main = () => {
           </div>
         </div>
         <div className="col-sm-12 col-md-6">
-          <img src={mainImg} className="img-fluid" alt="Main Section" />
+          <img
+            loading="lazy"
+            src={mainImg}
+            className="img-fluid"
+            alt="Main Section"
+          />
         </div>
       </div>
     </div>
   );
 };
 
-const SocialCard = ({ link, icon, iconColor }) => {
+const SocialCard = ({ name, link, icon, iconColor }) => {
   return (
     <a
       className="mx-3"
@@ -42,6 +48,7 @@ const SocialCard = ({ link, icon, iconColor }) => {
       target="_blank"
       rel="noopener noreferrer"
       style={iconColor}
+      aria-label={name}
     >
       <i className={icon}></i>
     </a>

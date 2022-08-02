@@ -9,7 +9,12 @@ const Education = () => {
             <h1 className="mt-4 font-weight-bold textGradientColor">
               Education
             </h1>
-            <img src={educationImg} className="img-fluid" alt="Education" />
+            <img
+              loading="lazy"
+              src={educationImg}
+              className="img-fluid"
+              alt="Education"
+            />
           </div>
           <div className="col-sm-12 col-md-6 py-5">
             <div className="py-3">
