@@ -1,5 +1,18 @@
 const technicalProjects = [
   {
+    title: "Feku Json",
+    description: "Free Simple fake API for Testing and Prototyping.",
+    techStack: [
+      {
+        iconClass: "fab fa-java  fa-3x",
+        iconColor: { color: "#d7172e" },
+      },
+    ],
+    demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
+    githubLink: "https://github.com/jaymanale/FekuJson",
+    technology: "Tailwind.css (daisyUI), Spring Boot, PostgreSQL",
+  },
+  {
     title: "Marvel Universe",
     description:
       "Web Application where you can get details about Characters, comics etc in Marvel Universe.",
@@ -11,6 +24,7 @@ const technicalProjects = [
     ],
     demoLink: "https://marvel-universe.netlify.app/",
     githubLink: "https://github.com/jaymanale/Marvel-Project",
+    technology: "Bootstrap Framework, ReactJS, Marvel API",
   },
   // {
   //   title: 'Todo App',
@@ -36,6 +50,7 @@ const technicalProjects = [
     ],
     demoLink: "https://covid-19-report-react.netlify.app/",
     githubLink: "https://github.com/jaymanale/covid-19-report",
+    technology: "Bootstrap Framework, ReactJS, Covid-19 API",
   },
   {
     title: "Short News",
@@ -49,19 +64,20 @@ const technicalProjects = [
     ],
     demoLink: "https://short-news.netlify.app/",
     githubLink: "https://github.com/jaymanale/Short-news",
+    technology: "Bootstrap Framework, ReactJS, News API",
   },
-  {
-    title: "Random Meme",
-    description: "Web Application to see randomly generated meme",
-    techStack: [
-      {
-        iconClass: "fab fa-react  fa-3x",
-        iconColor: { color: "#61dbfb" },
-      },
-    ],
-    demoLink: "https://random-meme-generator.netlify.app/",
-    githubLink: "https://github.com/jaymanale/random-meme-generator",
-  },
+  // {
+  //   title: "Random Meme",
+  //   description: "Web Application to see randomly generated meme",
+  //   techStack: [
+  //     {
+  //       iconClass: "fab fa-react  fa-3x",
+  //       iconColor: { color: "#61dbfb" },
+  //     },
+  //   ],
+  //   demoLink: "https://random-meme-generator.netlify.app/",
+  //   githubLink: "https://github.com/jaymanale/random-meme-generator",
+  // },
 ];
 
 const getTechnicalProjectsData = () => {

@@ -43,6 +43,9 @@ const ProjectCard = (props) => {
           })}
         </div>
         <h5 className="card-title font-weight-bold">{props.title}</h5>
+        <h6 className="font-weight-normal text-muted">
+          ( {props.technology} )
+        </h6>
         <p className="card-text">{props.description}</p>
 
         <div className="text-center">
