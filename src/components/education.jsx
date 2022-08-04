@@ -26,7 +26,7 @@ const Education = () => {
               <p className="small">
                 Percentage :
                 <span className="font-weight-bold">
-                  70.53% ( FIRST CLASS DIST )
+                  &nbsp;70.53% ( FIRST CLASS DIST )
                 </span>
               </p>
             </div>
@@ -40,7 +40,7 @@ const Education = () => {
               <p className="small">
                 Percentage :
                 <span className="font-weight-bold">
-                  77.87% ( FIRST CLASS DIST )
+                  &nbsp;77.87% ( FIRST CLASS DIST )
                 </span>
               </p>
             </div>
