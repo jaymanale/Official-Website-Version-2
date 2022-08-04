@@ -10,7 +10,7 @@ const technicalProjects = [
     ],
     demoLink: "https://fekujson.herokuapp.com/",
     githubLink: "https://github.com/jaymanale/FekuJson",
-    technology: "Tailwind.css (daisyUI), Spring Boot, PostgreSQL",
+    technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
   },
   {
     title: "Marvel Universe",
