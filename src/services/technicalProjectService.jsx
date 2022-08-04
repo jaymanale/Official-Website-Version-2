@@ -39,7 +39,7 @@ const technicalProjects = [
   //   githubLink: 'https://github.com/jaymanale/react-todo-firebase',
   // },
   {
-    title: "Covid-19 Report",
+    title: "Covid-19 Statistics",
     description:
       "Web Application to get statics of covid-19 report based on country",
     techStack: [
