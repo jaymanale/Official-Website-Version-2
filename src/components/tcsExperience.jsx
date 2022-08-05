@@ -5,28 +5,47 @@ const TcsExperience = () => {
     <div className="row  pt-1 ">
       <div className="col-sm-12 col-md-12 mt-5">
         <h3>
-          System Engineer{" "}
+          System Engineer
           <span className="font-weight-bold textGradientColorButton">@TCS</span>
         </h3>
-
+        <h6 className="text-muted">BACK-END Java | Spring Boot | PostgreSQL</h6>
         <ul>
           <li>
-            We have successfully
             <span className="mark font-weight-bold">
-              completed the first version of DPM in 1 month and deliver the
-              product to the customer.
+              Completed GDPR on-boarding
             </span>
-            With this project, we have
+            at an organization level which
+            <span className="mark font-weight-bold"> saved 4%</span> of global
+            turnover or
+            <span className="mark font-weight-bold"> 20 million</span> Euro fine
+            by
             <span className="mark font-weight-bold">
-              completed Onboarding of GDPR at an organization level and saved 4%
-              of annual income global turnover or 20 million Euro fine
+              implementing Data Privacy Application.
             </span>
           </li>
           <li>
-            I have used technology like
+            Increased
             <span className="mark font-weight-bold">
-              AngularJs, Bootstrap for Front-End and Java (Spring), PostgreSql
-              at Back-End.
+              on-boarding of applications
+            </span>
+            within an organization for GDPR by
+            <span className="mark font-weight-bold"> 60%</span>
+            by implementing the
+            <span className="mark font-weight-bold">
+              Data Protection Impact Assessment(DPIA)
+            </span>
+            feature in the Data Privacy Application.
+          </li>
+        </ul>
+        <h6 className="text-muted">Front-END Javascript | Angular</h6>
+        <ul>
+          <li>
+            Implemented easy to use
+            <span className="mark font-weight-bold"> Data Attribute Model</span>
+            feature in DPA which improve the user experience by
+            <span className="mark font-weight-bold"> 70%</span> by using
+            <span className="mark font-weight-bold">
+              D3.js (Data-Driven Documents)
             </span>
           </li>
         </ul>
