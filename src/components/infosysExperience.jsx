@@ -3,7 +3,7 @@ import React from "react";
 const InfosysExperience = () => {
   return (
     <div className="row  pt-1 ">
-      <div className="col-sm-12 col-md-12 mt-5">
+      <div className="col-sm-12 col-md-12 mt-3">
         <h3>
           Senior Associate Consultant{" "}
           <span className="font-weight-bold textGradientColorButton">

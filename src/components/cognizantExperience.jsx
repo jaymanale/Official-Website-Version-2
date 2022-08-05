@@ -7,7 +7,7 @@ const CognizantExperience = () => {
         Experience
       </h1>
 
-      <div className="col-sm-12 col-md-12 mt-5">
+      <div className="col-sm-12 col-md-12 mt-3">
         <h3>
           Full Stack Engineer{" "}
           <span className="font-weight-bold textGradientColorButton">
