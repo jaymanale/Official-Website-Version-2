@@ -17,14 +17,16 @@ const InfosysExperience = () => {
           <li>
             Worked on
             <span className="mark">
-              Banking Application using agile methodology
+              {" "}
+              Banking Application using agile methodology{" "}
             </span>
             . It is a
             <span className="mark">
-              distributed and complex architecture system
+              {" "}
+              distributed and complex architecture system{" "}
             </span>
             where code is distributed across more then
-            <span className="mark"> 10</span>
+            <span className="mark"> 10 </span>
             services.
           </li>
         </ul>

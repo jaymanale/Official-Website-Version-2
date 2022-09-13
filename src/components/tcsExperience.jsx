@@ -13,20 +13,24 @@ const TcsExperience = () => {
         </h6>
         <ul>
           <li>
-            <span className="mark">Completed GDPR on-boarding</span>
+            <span className="mark"> Completed GDPR on-boarding </span>
             at an organization level which
-            <span className="mark"> saved 4%</span> of global turnover or
-            <span className="mark"> 20 million</span> Euro fine by
-            <span className="mark">implementing Data Privacy Application.</span>
+            <span className="mark"> saved 4% </span> of global turnover or
+            <span className="mark"> 20 million </span> Euro fine by
+            <span className="mark">
+              {" "}
+              implementing Data Privacy Application.{" "}
+            </span>
           </li>
           <li>
             Increased
-            <span className="mark">on-boarding of applications</span>
+            <span className="mark"> on-boarding of applications </span>
             within an organization for GDPR by
-            <span className="mark"> 60%</span>
+            <span className="mark"> 60% </span>
             by implementing the
             <span className="mark">
-              Data Protection Impact Assessment(DPIA)
+              {" "}
+              Data Protection Impact Assessment(DPIA){" "}
             </span>
             feature in the Data Privacy Application.
           </li>
@@ -35,10 +39,10 @@ const TcsExperience = () => {
         <ul>
           <li>
             Implemented easy to use
-            <span className="mark"> Data Attribute Model</span>
+            <span className="mark"> Data Attribute Model </span>
             feature in DPA which improve the user experience by
-            <span className="mark"> 70%</span> by using
-            <span className="mark">D3.js (Data-Driven Documents)</span>
+            <span className="mark"> 70% </span> by using
+            <span className="mark"> D3.js (Data-Driven Documents) </span>
           </li>
         </ul>
       </div>
