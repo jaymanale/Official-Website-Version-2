@@ -19,11 +19,11 @@ function App() {
       <Main />
       <Experience />
       <Skills />
+      <TechnicalProjects />
+      <Certificates />
+      <OnlineContribution />
       <Education />
       <Interests />
-      <TechnicalProjects />
-      <OnlineContribution />
-      <Certificates />
 
       <div className="text-center colorGradiant text-white">
         Made with <i className="fas fa-heart text-danger"></i> by

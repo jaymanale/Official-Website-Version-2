@@ -5,9 +5,9 @@ const Certificates = () => {
   let certificates = getCertificatesData();
   return (
     <React.Fragment>
-      <div className="container-fluid bg-light" id="certificates">
+      <div className="container-fluid bg-light gradiantRed" id="certificates">
         <div className="row py-5">
-          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold textGradientColor">
+          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold text-white">
             Certificates
           </h1>
           {certificates.map((certifiate) => {

@@ -4,10 +4,12 @@ import interestsImg from "./../resources/animate/interests.svg";
 const Interests = () => {
   return (
     <React.Fragment>
-      <div className="container-fluid gradiantRed text-white">
+      <div className="container-fluid">
         <div className="row  pt-5" id="interests">
           <div className="col-sm-12 col-md-6">
-            <h1 className="mt-4 font-weight-bold">Interests</h1>
+            <h1 className="mt-4 font-weight-bold textGradientColor">
+              Interests
+            </h1>
             <img
               loading="lazy"
               className="img-fluid"

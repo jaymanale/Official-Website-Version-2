@@ -3,12 +3,10 @@ import educationImg from "./../resources/animate/education.svg";
 const Education = () => {
   return (
     <React.Fragment>
-      <div className="container-fluid bg-light">
+      <div className="container-fluid bg-light gradiantRed text-white">
         <div className="row  pt-5" id="education">
           <div className="col-sm-12 col-md-6">
-            <h1 className="mt-4 font-weight-bold textGradientColor">
-              Education
-            </h1>
+            <h1 className="mt-4 font-weight-bold text-white">Education</h1>
             <img
               loading="lazy"
               src={educationImg}
