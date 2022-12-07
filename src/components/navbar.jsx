@@ -1,8 +1,8 @@
-import React from 'react';
-import getNavbarLinkData from './../services/navbarService';
-import resume from './../resources/resume/Resume.pdf';
+import React from "react";
+import getNavbarLinkData from "./../services/navbarService";
+import resume from "./../resources/resume/Resume.pdf";
 const Navbar = () => {
-  let navLiinks = getNavbarLinkData();
+  let navLinks = getNavbarLinkData();
 
   return (
     <div className="container-fluid">
@@ -29,7 +29,7 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav">
-            {navLiinks.map((link) => (
+            {navLinks.map((link) => (
               <NavLink key={link.navId} {...link} />
             ))}
             <li className="nav-item">

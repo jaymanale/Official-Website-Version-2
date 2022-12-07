@@ -1,36 +1,35 @@
 const navbarLink = [
   {
-    navId: '#about',
-    title: 'About',
+    navId: "#about",
+    title: "About",
   },
   {
-    navId: '#experience',
-    title: 'Experience',
+    navId: "#experience",
+    title: "Experience",
   },
   {
-    navId: '#skills',
-    title: 'Skills',
+    navId: "#skills",
+    title: "Skills",
   },
   {
-    navId: '#education',
-    title: 'Education',
+    navId: "#projects",
+    title: "Projects",
   },
   {
-    navId: '#interests',
-    title: 'Interests',
+    navId: "#certificates",
+    title: "Certificates",
   },
   {
-    navId: '#projects',
-    title: 'Projects',
+    navId: "#contribution",
+    title: "Contribution",
   },
   {
-    navId: '#contribution',
-    title: 'Contribution',
+    navId: "#education",
+    title: "Education",
   },
-
   {
-    navId: '#certificates',
-    title: 'Certificates',
+    navId: "#interests",
+    title: "Interests",
   },
 ];
 
