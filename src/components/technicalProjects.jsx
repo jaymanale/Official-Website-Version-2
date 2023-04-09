@@ -55,7 +55,7 @@ const ProjectCard = (props) => {
                 className="fas fa-globe-asia mx-2"
                 style={{ color: "#ffffff" }}
               ></i>
-              Demo
+              See Live
             </button>
           </a>
           <a href={props.githubLink} alt="Github Button">
@@ -64,7 +64,7 @@ const ProjectCard = (props) => {
                 className="fab fa-github mx-2"
                 style={{ color: "#ffffff" }}
               ></i>
-              Github
+              Source Code
             </button>
           </a>
         </div>

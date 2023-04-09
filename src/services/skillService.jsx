@@ -12,10 +12,6 @@ const frontEndSkills = [
     title: 'Javascript',
   },
   {
-    icon: 'fab fa-angular fa-4x',
-    title: 'Angular',
-  },
-  {
     icon: 'fab fa-react fa-4x',
     title: 'ReactJS',
   },
