@@ -8,7 +8,7 @@ const technicalProjects = [
         iconColor: { color: "#d7172e" },
       },
     ],
-    demoLink: "https://fekujson.herokuapp.com/",
+    demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
     githubLink: "https://github.com/jaymanale/FekuJson",
     technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
   },
