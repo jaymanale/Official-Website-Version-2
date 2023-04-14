@@ -22,8 +22,7 @@ function App() {
       <TechnicalProjects />
       <Certificates />
       <OnlineContribution />
-      <Education />
-      <Interests />
+    
 
       <div className="text-center colorGradiant text-white">
         Made with <i className="fas fa-heart text-danger"></i> by
