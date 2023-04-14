@@ -18,9 +18,7 @@ const Main = () => {
           />
           <h1 className="font-weight-bold mt-3">Hi,</h1>
           <h2 className="font-weight-bold">I'm Jayram,</h2>
-          <h2 className="font-weight-bold colorGradiant">
-            Full-Stack Engineer
-          </h2>
+          <h2 className="font-weight-bold linear-wipe">Full-Stack Engineer</h2>
           <div className="social-icons mt-5">
             {links.map((link) => (
               <SocialCard key={link.icon} {...link} />
