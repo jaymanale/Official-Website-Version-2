@@ -22,7 +22,7 @@ const navbarLink = [
   {
     navId: "#contribution",
     title: "Contribution",
-  }
+  },
 ];
 
 const getNavbarLinkData = () => {
