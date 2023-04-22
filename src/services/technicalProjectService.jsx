@@ -13,6 +13,20 @@ const technicalProjects = [
     technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
   },
   {
+    title: "Game Hub",
+    description:
+      "GameHub - This is the Online game platform to know all about the games available on different platforms which can be sorted by Genre",
+    techStack: [
+      {
+        iconClass: "fab fa-react fa-3x",
+        iconColor: { color: "#61dbfb" },
+      },
+    ],
+    demoLink: "https://game-hub-navy-tau.vercel.app/",
+    githubLink: "https://github.com/jaymanale/game-hub",
+    technology: "Chakra-UI Framework, ReactJS, RAWG API",
+  },
+  {
     title: "Marvel Universe",
     description:
       "Web Application where you can get details about Characters, comics etc in Marvel Universe.",
