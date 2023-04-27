@@ -1,21 +1,24 @@
 const technicalProjects = [
-  {
-    title: "Feku Json",
-    description: "Free Simple fake API for Testing and Prototyping.",
-    techStack: [
-      {
-        iconClass: "fab fa-java  fa-3x",
-        iconColor: { color: "#d7172e" },
-      },
-    ],
-    demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
-    githubLink: "https://github.com/jaymanale/FekuJson",
-    technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
-  },
+  // {
+  //   title: "Feku Json",
+  //   description: "Free Simple fake API for Testing and Prototyping.",
+  //   imageUrl: "",
+  //   techStack: [
+  //     {
+  //       iconClass: "fab fa-java  fa-3x",
+  //       iconColor: { color: "#d7172e" },
+  //     },
+  //   ],
+  //   demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
+  //   githubLink: "https://github.com/jaymanale/FekuJson",
+  //   technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
+  // },
   {
     title: "Game Hub",
     description:
       "GameHub - This is the Online game platform to know all about the games available on different platforms which can be sorted by Genre",
+    imageUrl:
+      "https://user-images.githubusercontent.com/5653906/234749101-bfd70d43-d566-4744-bfcf-c1d7ec6cee6b.gif",
     techStack: [
       {
         iconClass: "fab fa-react fa-3x",
@@ -30,6 +33,8 @@ const technicalProjects = [
     title: "Marvel Universe",
     description:
       "Web Application where you can get details about Characters, comics etc in Marvel Universe.",
+    imageUrl:
+      "https://user-images.githubusercontent.com/5653906/234750797-eee9425d-0173-4933-a683-2f2bfb11b2d1.gif",
     techStack: [
       {
         iconClass: "fab fa-react fa-3x",
@@ -56,6 +61,8 @@ const technicalProjects = [
     title: "Covid-19 Statistics",
     description:
       "Web Application to get statics of covid-19 report based on country",
+    imageUrl:
+      "https://user-images.githubusercontent.com/5653906/234749042-edcbed58-82d2-4810-ba6b-915a1415092a.gif",
     techStack: [
       {
         iconClass: "fab fa-react  fa-3x",
@@ -70,6 +77,9 @@ const technicalProjects = [
     title: "Short News",
     description:
       "Web Application where you can get Top New in different Category",
+
+    imageUrl:
+      "https://user-images.githubusercontent.com/5653906/234751162-51e3f0d2-7059-494c-9e1c-3e558df773c7.gif",
     techStack: [
       {
         iconClass: "fab fa-react  fa-3x",
