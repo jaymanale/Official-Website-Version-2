@@ -32,11 +32,16 @@ const CertificateCard = ({
   providerIconStyle,
   title,
   link,
+  imageUrl,
 }) => {
   return (
     <div className="card text-center cardStyle my-4">
       <div className="card-img-top gradiantRed">
-        <p> </p>
+        <img
+          src={imageUrl}
+          className="img-fluid cover p-3 rounded"
+          alt="marvel"
+        />
       </div>
       <div className="card-body">
         <div className="m-2">
