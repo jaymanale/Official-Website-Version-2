@@ -9,7 +9,7 @@ const technicalProjects = [
         iconColor: { color: "#d7172e" },
       },
     ],
-    demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
+    demoLink: "https://documenter.getpostman.com/view/305770/2s93eSabYH",
     githubLink: "https://github.com/jaymanale/FekuJson",
     technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
   },
