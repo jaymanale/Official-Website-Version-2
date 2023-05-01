@@ -1,18 +1,18 @@
 const technicalProjects = [
-  // {
-  //   title: "Feku Json",
-  //   description: "Free Simple fake API for Testing and Prototyping.",
-  //   imageUrl: "",
-  //   techStack: [
-  //     {
-  //       iconClass: "fab fa-java  fa-3x",
-  //       iconColor: { color: "#d7172e" },
-  //     },
-  //   ],
-  //   demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
-  //   githubLink: "https://github.com/jaymanale/FekuJson",
-  //   technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
-  // },
+  {
+    title: "Feku Json",
+    description: "Free Simple fake API for Testing and Prototyping.",
+    imageUrl: "https://user-images.githubusercontent.com/5653906/235428332-9ebc4871-4d41-4630-8c58-3279b2a0bc5d.gif",
+    techStack: [
+      {
+        iconClass: "fab fa-java  fa-3x",
+        iconColor: { color: "#d7172e" },
+      },
+    ],
+    demoLink: "https://rapidapi.com/jaymanale29/api/feku-json1",
+    githubLink: "https://github.com/jaymanale/FekuJson",
+    technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
+  },
   {
     title: "Game Hub",
     description:
