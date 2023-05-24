@@ -13,7 +13,7 @@ const TechnicalProjects = () => {
           </h1>
           {projects.map((project) => {
             return (
-              <div key={project.title} className="col-sm-12 col-md-5 m-auto ">
+              <div key={project.title} className="col-sm-12 col-md-8 m-auto ">
                 <ProjectCard {...project} />
               </div>
             );
@@ -53,7 +53,12 @@ const ProjectCard = (props) => {
         <p className="card-text">{props.description}</p>
 
         <div className="text-center">
-          <a href={props.demoLink} alt="Demo Button">
+          <a
+            href={props.demoLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="Demo Button"
+          >
             <button className="btn btn-primary mx-2 font-weight-bold textGradientColorButton">
               <i
                 className="fas fa-globe-asia mx-2"
@@ -62,7 +67,12 @@ const ProjectCard = (props) => {
               See Live
             </button>
           </a>
-          <a href={props.githubLink} alt="Github Button">
+          <a
+            href={props.githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="Github Button"
+          >
             <button className="btn btn-dark text-white mx-2 font-weight-bold textGradientColorBlackButton">
               <i
                 className="fab fa-github mx-2"
