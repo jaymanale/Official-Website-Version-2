@@ -10,13 +10,13 @@ const Certificates = () => {
           <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold text-white">
             Certificates
           </h1>
-          {certificates.map((certifiate) => {
+          {certificates.map((certificate) => {
             return (
               <div
-                key={certifiate.certificateId}
+                key={certificate.certificateId}
                 className="col-sm-12 col-md-5 m-auto"
               >
-                <CertificateCard {...certifiate} />
+                <CertificateCard {...certificate} />
               </div>
             );
           })}
@@ -40,7 +40,7 @@ const CertificateCard = ({
         <img
           src={imageUrl}
           className="img-fluid cover p-3 rounded"
-          alt="marvel"
+          alt={title}
         />
       </div>
       <div className="card-body">
@@ -49,11 +49,18 @@ const CertificateCard = ({
         </div>
         <h5 className="card-title font-weight-bold">{title}</h5>
         <p>Credential ID - {certificateId}</p>
-        <button className="btn btn-primary font-weight-bold m-1 textGradientColorButton">
-          <a href={link} alt={title} className="text-white">
+
+        <a
+          href={link}
+          alt={title}
+          className="text-white"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn btn-primary font-weight-bold m-1 textGradientColorButton">
             See Credential
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </div>
   );
