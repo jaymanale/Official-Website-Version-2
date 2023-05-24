@@ -2,7 +2,8 @@ const technicalProjects = [
   {
     title: "Feku Json",
     description: "Free Simple fake API for Testing and Prototyping.",
-    imageUrl: "https://user-images.githubusercontent.com/5653906/235428332-9ebc4871-4d41-4630-8c58-3279b2a0bc5d.gif",
+    imageUrl:
+      "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/83d12f92-9d89-436d-89cb-f322e5b40165",
     techStack: [
       {
         iconClass: "fab fa-java  fa-3x",
@@ -18,7 +19,7 @@ const technicalProjects = [
     description:
       "GameHub - This is the Online game platform to know all about the games available on different platforms which can be sorted by Genre",
     imageUrl:
-      "https://user-images.githubusercontent.com/5653906/234749101-bfd70d43-d566-4744-bfcf-c1d7ec6cee6b.gif",
+      "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/b0e0e44c-6f61-4055-9898-52c9ecf97b9a",
     techStack: [
       {
         iconClass: "fab fa-react fa-3x",
@@ -34,7 +35,7 @@ const technicalProjects = [
     description:
       "Web Application where you can get details about Characters, comics etc in Marvel Universe.",
     imageUrl:
-      "https://user-images.githubusercontent.com/5653906/234750797-eee9425d-0173-4933-a683-2f2bfb11b2d1.gif",
+      "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/205e239f-08bc-4602-9b32-e4a5a85d44a8",
     techStack: [
       {
         iconClass: "fab fa-react fa-3x",
@@ -62,7 +63,7 @@ const technicalProjects = [
     description:
       "Web Application to get statics of covid-19 report based on country",
     imageUrl:
-      "https://user-images.githubusercontent.com/5653906/234749042-edcbed58-82d2-4810-ba6b-915a1415092a.gif",
+      "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/956068fa-81c5-4521-8e8a-e09588370c11",
     techStack: [
       {
         iconClass: "fab fa-react  fa-3x",
@@ -79,7 +80,7 @@ const technicalProjects = [
       "Web Application where you can get Top New in different Category",
 
     imageUrl:
-      "https://user-images.githubusercontent.com/5653906/234751162-51e3f0d2-7059-494c-9e1c-3e558df773c7.gif",
+      "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/657a7e98-1ccd-410a-a854-0e098b51fe33",
     techStack: [
       {
         iconClass: "fab fa-react  fa-3x",
