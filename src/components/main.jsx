@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div className="container-fluid backgroundColorGradient">
       <div className="row text-center mt-5 " id="about">
-        <div className="col-sm-12 col-md-6 mt-5 text-white">
+        <div className="col-sm-12 col-md-6 my-5 text-white">
           <img
             loading="lazy"
             className="img-fluid rounded-circle mx-auto m-4 gradientLargeBorder"
@@ -52,7 +52,13 @@ const SocialCard = ({ name, link, icon, alt }) => {
       aria-label={name}
       role="button"
     >
-      <img loading="lazy" src={icon} className="img-fluid" alt={alt} />
+      <img
+        loading="lazy"
+        src={icon}
+        className="img-fluid rounded-circle"
+        style={{ border: "5px solid rgba(255, 255, 255, 0.2)" }}
+        alt={alt}
+      />
     </a>
   );
 };
