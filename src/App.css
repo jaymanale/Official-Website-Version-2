@@ -40,3 +40,10 @@
     transform: rotate(360deg);
   }
 }
+
+.gradientLargeBorder {
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(to right, #ef4444, #f59e0b) border-box;
+  border-radius: 50%;
+  border: 15px solid transparent;
+}
