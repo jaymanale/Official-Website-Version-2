@@ -92,8 +92,8 @@ code {
   margin-right: 1rem;
 }
 
-h2.linear-wipe {
-  background: linear-gradient(-45deg, #ffffff, #ffffff, #65c7f7, #65c7f7);
+h1.linear-wipe {
+  background: linear-gradient(-45deg, #ef4444, #ef4444, #f59e0b, #f59e0b);
   background-size: 300%;
 
   -webkit-background-clip: text;
@@ -113,4 +113,20 @@ h2.linear-wipe {
   100% {
     background-position: 0px 50%;
   }
+}
+
+.backgroundColorGradient {
+  background: #1e2136; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1e2136,
+    #1e2136,
+    #1e2136
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1e2136,
+    #1e2136,
+    #1e2136
+  ); 
 }

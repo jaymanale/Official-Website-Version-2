@@ -1,5 +1,5 @@
 import React from "react";
-import skillsImg from "./../resources/animate/skills.svg";
+import skillsImg from "./../resources/Animate_V2/skills.svg";
 import {
   getFrontEndSkillsData,
   getBackEndSkillsData,
@@ -10,10 +10,15 @@ const Skills = () => {
   let backendSkills = getBackEndSkillsData();
   return (
     <React.Fragment>
-      <div className="container-fluid gradiantRed text-white">
+      <div className="container-fluid backgroundColorGradient text-white">
         <div className="row  pt-5" id="skills">
           <div className="col-sm-12 col-md-6">
-            <h1 className="mt-4 font-weight-bold">Skills</h1>
+            <h1 className="mt-4 font-weight-bold">
+              <span className="newOrangeDarkStyle">Skills</span>
+              <span role="img" aria-label="Skill gear icon">
+                ⚙️
+              </span>
+            </h1>
             <img
               loading="lazy"
               className="img-fluid"
@@ -45,8 +50,13 @@ const Skills = () => {
 const SkillCard = ({ icon, title }) => {
   return (
     <div className="col-4 col-sm-3 text-center">
-      <i className={icon}></i>
-      <p>{title}</p>
+      <img
+        loading="lazy"
+        src={icon}
+        className="img-fluid skill-icon-size"
+        alt={title}
+      />
+      <p className="newOrangeDarkStyle">{title}</p>
     </div>
   );
 };

@@ -19,10 +19,6 @@ const navbarLink = [
     navId: "#certificates",
     title: "Certificates",
   },
-  {
-    navId: "#contribution",
-    title: "Contribution",
-  },
 ];
 
 const getNavbarLinkData = () => {

@@ -1,30 +1,47 @@
+import html from "./../resources/skills-icon/html5-plain.svg";
+import css from "./../resources/skills-icon/css3-plain.svg";
+import javascript from "./../resources/skills-icon/javascript-plain.svg";
+import bootstrap from "./../resources/skills-icon/bootstrap-original.svg";
+import reactjs from "./../resources/skills-icon/react-original.svg";
+import java from "./../resources/skills-icon/java-plain.svg";
+import spring from "./../resources/skills-icon/spring-original.svg";
+import postgresql from "./../resources/skills-icon/postgresql-plain.svg";
+
 const frontEndSkills = [
   {
-    icon: 'fab fa-html5 fa-4x',
-    title: 'HTML 5',
+    icon: html,
+    title: "HTML 5",
   },
   {
-    icon: 'fab fa-css3-alt fa-4x',
-    title: 'CSS 3',
+    icon: css,
+    title: "CSS 3",
   },
   {
-    icon: 'fab fa-js-square fa-4x',
-    title: 'Javascript',
+    icon: javascript,
+    title: "Javascript",
   },
   {
-    icon: 'fab fa-react fa-4x',
-    title: 'ReactJS',
+    icon: bootstrap,
+    title: "Bootstrap",
+  },
+  {
+    icon: reactjs,
+    title: "ReactJS",
   },
 ];
 
 const backEndSkills = [
   {
-    icon: 'fab fa-java fa-4x',
-    title: 'Java-Spring Boot',
+    icon: java,
+    title: "Java",
   },
   {
-    icon: 'fas fa-database fa-4x',
-    title: 'PostgreSQL',
+    icon: spring,
+    title: "Spring Boot",
+  },
+  {
+    icon: postgresql,
+    title: "PostgreSQL",
   },
 ];
 
