@@ -1,7 +1,6 @@
 import React from "react";
 import getTechnicalProjectsData from "./../services/technicalProjectService";
 import "./../styles/card.css";
-import githubBlack from "./../resources/social-icon/Github_black.png";
 
 const TechnicalProjects = () => {
   let projects = getTechnicalProjectsData();
