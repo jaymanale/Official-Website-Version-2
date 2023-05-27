@@ -56,7 +56,7 @@ const SocialCard = ({ name, link, icon, alt }) => {
         loading="lazy"
         src={icon}
         className="img-fluid rounded-circle"
-        style={{ border: "5px solid rgba(255, 255, 255, 0.2)" }}
+        style={{ border: "5px solid rgba(255, 255, 255, 0.1)" }}
         alt={alt}
       />
     </a>
