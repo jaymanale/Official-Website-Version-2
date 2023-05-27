@@ -1,8 +1,10 @@
 import html from "./../resources/skills-icon/html5-plain.svg";
 import css from "./../resources/skills-icon/css3-plain.svg";
 import javascript from "./../resources/skills-icon/javascript-plain.svg";
+import bootstrap from "./../resources/skills-icon/bootstrap-original.svg";
 import reactjs from "./../resources/skills-icon/react-original.svg";
 import java from "./../resources/skills-icon/java-plain.svg";
+import spring from "./../resources/skills-icon/spring-original.svg";
 import postgresql from "./../resources/skills-icon/postgresql-plain.svg";
 
 const frontEndSkills = [
@@ -19,6 +21,10 @@ const frontEndSkills = [
     title: "Javascript",
   },
   {
+    icon: bootstrap,
+    title: "Bootstrap",
+  },
+  {
     icon: reactjs,
     title: "ReactJS",
   },
@@ -27,7 +33,11 @@ const frontEndSkills = [
 const backEndSkills = [
   {
     icon: java,
-    title: "Java-Spring Boot",
+    title: "Java",
+  },
+  {
+    icon: spring,
+    title: "Spring Boot",
   },
   {
     icon: postgresql,
