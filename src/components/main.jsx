@@ -18,7 +18,7 @@ const Main = () => {
           <h2 className="font-weight-bold mt-4">
             Hi,
             <span role="img" aria-label="Hand wave icon">
-              👋
+              &nbsp;👋
             </span>
           </h2>
           <h2 className="font-weight-bold">I'm Jayram,</h2>
