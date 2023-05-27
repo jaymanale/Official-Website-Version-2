@@ -15,15 +15,17 @@ const Main = () => {
             src={ProfileImg}
             alt="Jayram profile"
           />
-          <h2 className="font-weight-bold mt-3">
+          <h2 className="font-weight-bold mt-4">
             Hi,
             <span role="img" aria-label="Hand wave icon">
               👋
             </span>
           </h2>
           <h2 className="font-weight-bold">I'm Jayram,</h2>
-          <h1 className="font-weight-bold linear-wipe">Full-Stack Engineer</h1>
-          <div className="social-icons mt-4" aria-label="Social Icon Section">
+          <h1 className="font-weight-bold linear-wipe mt-3">
+            Full-Stack Engineer
+          </h1>
+          <div className="social-icons mt-5" aria-label="Social Icon Section">
             {links.map((link) => (
               <SocialCard key={link.icon} {...link} />
             ))}
@@ -45,7 +47,6 @@ const Main = () => {
 const SocialCard = ({ name, link, icon, alt }) => {
   return (
     <a
-      className="mx-3"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -55,7 +56,7 @@ const SocialCard = ({ name, link, icon, alt }) => {
       <img
         loading="lazy"
         src={icon}
-        className="img-fluid rounded-circle"
+        className="img-fluid rounded-circle "
         style={{ border: "5px solid rgba(255, 255, 255, 0.1)" }}
         alt={alt}
       />

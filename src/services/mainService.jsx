@@ -1,8 +1,7 @@
-import linkedin from "../resources/social-icon/LinkedIN.png";
-import github from "../resources/social-icon/Github.png";
-import twitter from "../resources/social-icon/Twitter.png";
-import medium from "../resources/social-icon/Medium.png";
-import gmail from "../resources/social-icon/Gmail.png";
+import linkedin from "../resources/social-icon/LinkedIN.svg";
+import github from "../resources/social-icon/Github_white.svg";
+import medium from "../resources/social-icon/Medium.svg";
+import gmail from "../resources/social-icon/Gmail.svg";
 
 const socialLink = [
   {
@@ -22,12 +21,6 @@ const socialLink = [
     link: "https://github.com/jaymanale",
     icon: github,
     alt: "Github social media icon",
-  },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/jayrammanale",
-    icon: twitter,
-    alt: "Twitter social media icon",
   },
   {
     name: "Medium",
