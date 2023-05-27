@@ -47,3 +47,14 @@
   border-radius: 50%;
   border: 15px solid transparent;
 }
+
+
+.newOrangeDarkStyle {
+  font-weight: 900;
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #ef4444;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #f59e0b;
+  -webkit-background-clip: text;
+  color: transparent;
+}

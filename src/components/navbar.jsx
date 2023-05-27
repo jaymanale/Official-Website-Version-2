@@ -7,14 +7,14 @@ const Navbar = () => {
   return (
     <div className="container-fluid">
       <nav
-        className="  navbar navbar-expand-lg navbar-dark gradiantRed fixed-top text-white"
+        className="  navbar navbar-expand-lg navbar-dark backgroundColorGradient fixed-top text-white"
         id="sideNav"
       >
         <a
           className="navbar-brand js-scroll-trigger"
           href="https://www.jayrammanale.com/"
         >
-          <span className="d-block ">JM</span>
+          <span className="d-block newOrangeDarkStyle">JM</span>
         </a>
         <button
           className="navbar-toggler"
@@ -47,7 +47,7 @@ const Navbar = () => {
 const NavLink = ({ navId, title }) => {
   return (
     <li className="nav-item d-none d-lg-block">
-      <a className="nav-link js-scroll-trigger" href={navId}>
+      <a className="nav-link js-scroll-trigger " href={navId}>
         {title}
       </a>
     </li>
