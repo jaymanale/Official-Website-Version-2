@@ -6,7 +6,7 @@ import TcsExperience from "./tcsExperience";
 
 const Experience = () => {
   return (
-    <div className="container-fluid bg-light pt-5 " id="experience">
+    <div className="container-fluid pt-5 darkBackground" id="experience">
       <CognizantExperience />
       <InfosysExperience />
       <TcsExperience />

@@ -48,6 +48,9 @@
   border: 15px solid transparent;
 }
 
+.darkBackground {
+  background-color: #1e2136;
+}
 
 .newOrangeDarkStyle {
   font-weight: 900;
