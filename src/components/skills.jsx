@@ -16,7 +16,7 @@ const Skills = () => {
             <h1 className="mt-4 font-weight-bold">
               <span className="newOrangeDarkStyle">Skills</span>
               <span role="img" aria-label="Skill gear icon">
-                ⚙️
+                &nbsp;⚙️
               </span>
             </h1>
             <img

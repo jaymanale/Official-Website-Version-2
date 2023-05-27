@@ -11,7 +11,7 @@ const TechnicalProjects = () => {
           <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
             <span className="newOrangeDarkStyle">Tech Projects</span>
             <span role="img" aria-label="Technical projects icon">
-              👨‍💻
+              &nbsp;👨‍💻
             </span>
           </h1>
           {projects.map((project) => {

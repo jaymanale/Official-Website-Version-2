@@ -6,7 +6,7 @@ const CognizantExperience = () => {
       <h1 className="mt-1 font-weight-bold ml-3 ">
         <span className="newOrangeDarkStyle">Experience</span>
         <span role="img" aria-label="Laptop icon">
-          💻
+          &nbsp;💻
         </span>
       </h1>
 

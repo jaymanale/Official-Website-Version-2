@@ -13,7 +13,7 @@ const Certificates = () => {
           <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
             <span className="newOrangeDarkStyle">Certificates</span>
             <span role="img" aria-label="certificate icon">
-              📜
+              &nbsp;📜
             </span>
           </h1>
           {certificates.map((certificate) => {
