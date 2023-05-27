@@ -5,10 +5,16 @@ const Certificates = () => {
   let certificates = getCertificatesData();
   return (
     <React.Fragment>
-      <div className="container-fluid bg-light gradiantRed" id="certificates">
+      <div
+        className="container-fluid bg-light backgroundColorGradient"
+        id="certificates"
+      >
         <div className="row py-5">
-          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold text-white">
-            Certificates
+          <h1 className="mt-4 col-sm-12 col-md-12 font-weight-bold">
+            <span className="newOrangeDarkStyle">Certificates</span>
+            <span role="img" aria-label="certificate icon">
+              📜
+            </span>
           </h1>
           {certificates.map((certificate) => {
             return (
@@ -36,16 +42,21 @@ const CertificateCard = ({
 }) => {
   return (
     <div className="card text-center cardStyle my-4">
-      <div className="card-img-top gradiantRed">
+      <div className="card-img-top backgroundColorGradient">
         <img
           src={imageUrl}
           className="img-fluid cover p-3 rounded"
-          alt={title}
+          alt={title + " certificate"}
         />
       </div>
       <div className="card-body">
         <div className="m-2">
-          <i className={providerIcon} style={providerIconStyle}></i>
+          <img
+            loading="lazy"
+            src={providerIcon}
+            className="img-fluid skill-icon-size"
+            alt={providerIcon + " logo"}
+          />
         </div>
         <h5 className="card-title font-weight-bold">{title}</h5>
         <p>Credential ID - {certificateId}</p>
@@ -57,7 +68,7 @@ const CertificateCard = ({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="btn btn-primary font-weight-bold m-1 textGradientColorButton">
+          <button className="btn btn-danger font-weight-bold m-1 textGradientColorButton">
             See Credential
           </button>
         </a>
