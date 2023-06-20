@@ -10,7 +10,7 @@ const technicalProjects = [
     techStack: java,
     demoLink: "https://documenter.getpostman.com/view/305770/2s93eSabYH",
     githubLink: "https://github.com/jaymanale/FekuJson",
-    technology: "Bootstrap Framework, Spring Boot, Java, PostgreSQL",
+    technology: "Bootstrap Framework, Spring Boot, Supabase (BAAS) - PostgreSQL",
   },
   {
     title: "Game Hub",
