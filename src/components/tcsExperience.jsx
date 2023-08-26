@@ -33,7 +33,7 @@ const TcsExperience = () => {
               on-boarding of applications{" "}
             </span>
             within an organization for GDPR by
-            <span className="font-weight-bold"> 60% </span>
+            <span className="font-weight-bold"> 25% </span>
             by implementing the
             <span className="font-weight-bold">
               {" "}
@@ -48,7 +48,7 @@ const TcsExperience = () => {
             Implemented easy to use
             <span className="font-weight-bold"> Data Attribute Model </span>
             feature in DPA which improve the user experience by
-            <span className="font-weight-bold"> 70% </span> by using
+            <span className="font-weight-bold"> 20% </span> by using
             <span className="font-weight-bold">
               {" "}
               D3.js (Data-Driven Documents){" "}

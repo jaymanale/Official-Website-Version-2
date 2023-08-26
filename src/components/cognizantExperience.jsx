@@ -23,7 +23,7 @@ const CognizantExperience = () => {
           <li>
             Improved
             <span className="font-weight-bold"> Billing module </span>
-            performance by <span className="font-weight-bold"> 30% </span> by
+            performance by <span className="font-weight-bold"> 15% </span> by
             implementing features with
             <span className="font-weight-bold"> Reactive Model. </span>
           </li>
@@ -31,7 +31,7 @@ const CognizantExperience = () => {
             Improved
             <span className="font-weight-bold"> Autopay Module </span>
             Feature which helps the Customer to make payment on a monthly cycle
-            by <span className="font-weight-bold"> 50% </span> by adding
+            by <span className="font-weight-bold"> 20% </span> by adding
             <span className="font-weight-bold">
               {" "}
               Autopay and Paper Free Billing feature.{" "}
@@ -43,7 +43,7 @@ const CognizantExperience = () => {
           <li>
             <span className="font-weight-bold"> Improved User experience </span>
             of the Billing and Autopay module by
-            <span className="font-weight-bold"> 40% </span> by implementing the
+            <span className="font-weight-bold"> 20% </span> by implementing the
             <span className="font-weight-bold"> Module Design standard. </span>
           </li>
         </ul>
