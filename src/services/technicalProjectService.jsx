@@ -15,7 +15,7 @@ const technicalProjects = [
   {
     title: "Game Hub",
     description:
-      "GameHub - This is the Online game platform to know all about the games available on different platforms which can be sorted by Genre",
+      "Game Hub is a platform to find out about all the games available across different platforms that are categorized by genre.",
     imageUrl:
       "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/b0e0e44c-6f61-4055-9898-52c9ecf97b9a",
     techStack: reactjs,
@@ -60,7 +60,7 @@ const technicalProjects = [
   {
     title: "Short News",
     description:
-      "Web Application where you can get Top New in different Category",
+      "Short News web application allows you to view top news stories from different categories.",
 
     imageUrl:
       "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/657a7e98-1ccd-410a-a854-0e098b51fe33",
