@@ -23,7 +23,7 @@ const CognizantExperience = () => {
             Develop features using the Reactive Model with Java and Springboot
             to
             <span className="font-weight-bold">
-              enhance the billing module's performance by 15%.
+            {" "}enhance the billing module's performance by 15%.
             </span>
           </li>
           <li>
@@ -48,7 +48,7 @@ const CognizantExperience = () => {
             processes, including pull requests, code reviews, testing, and
             unit/e2e testing to
             <span className="font-weight-bold">
-              streamline development workflows.
+            {" "}streamline development workflows.
             </span>
           </li>
         </ul>

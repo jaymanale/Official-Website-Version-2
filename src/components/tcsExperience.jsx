@@ -21,11 +21,11 @@ const TcsExperience = () => {
           </li>
           <li>
             <span className="font-weight-bold">
-              Increased onboarding of applications,/
+              Increased onboarding of applications,
             </span>{" "}
             within an organization for GDPR by
             <span className="font-weight-bold">
-              25% by implementing the(DPIA) feature.
+            {" "}25% by implementing the(DPIA) feature.
             </span>
           </li>
           <li>
@@ -34,7 +34,7 @@ const TcsExperience = () => {
             </span>
             by implementing a user-friendly
             <span className="font-weight-bold">
-              Data Attribute Model feature using D3.js{" "}
+            {" "}Data Attribute Model feature using D3.js{" "}
             </span>
             within the DPA
           </li>
