@@ -4,18 +4,20 @@ import reactjs from "./../resources/skills-icon/react-original.svg";
 const technicalProjects = [
   {
     title: "Feku Json",
-    description: "Free Simple fake API for Testing and Prototyping.",
+    description:
+      "Created the Feku JSON REST API to supply simulated data for local testing, serving as a valuable resource for testing purposes.",
     imageUrl:
       "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/83d12f92-9d89-436d-89cb-f322e5b40165",
     techStack: java,
     demoLink: "https://documenter.getpostman.com/view/305770/2s93eSabYH",
     githubLink: "https://github.com/jaymanale/FekuJson",
-    technology: "Bootstrap Framework, Spring Boot, Supabase (BAAS) - PostgreSQL",
+    technology:
+      "Bootstrap Framework, Spring Boot, Supabase (BAAS) - PostgreSQL",
   },
   {
     title: "Game Hub",
     description:
-      "Game Hub is a platform to find out about all the games available across different platforms that are categorized by genre.",
+      "Designed Game Hub, a platform facilitating the exploration of games across various platforms, categorized by genre.",
     imageUrl:
       "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/b0e0e44c-6f61-4055-9898-52c9ecf97b9a",
     techStack: reactjs,
@@ -60,7 +62,7 @@ const technicalProjects = [
   {
     title: "Short News",
     description:
-      "Short News web application allows you to view top news stories from different categories.",
+      "Created the Short News web application for convenient access to top news stories across diverse categories.",
 
     imageUrl:
       "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/657a7e98-1ccd-410a-a854-0e098b51fe33",

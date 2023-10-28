@@ -8,25 +8,13 @@ const InfosysExperience = () => {
           Senior Associate Consultant{" "}
           <span className="font-weight-bold newOrangeDarkStyle">@Infosys</span>
         </h3>
-        <h6 className="text-muted mt-4 mb-3">
-          BACK-END Java | Spring Boot | SQL
-        </h6>
         <ul>
           <li>
-            Worked on
-            <span className="font-weight-bold">
-              {" "}
-              Banking Application using agile methodology{" "}
-            </span>
-            . It is a
-            <span className="font-weight-bold">
-              {" "}
-              distributed and complex architecture system{" "}
-            </span>
-            where code is distributed across more then
-            <span className="font-weight-bold"> 10 </span>
-            services.
+            Worked on Banking Applications using agile methodology. It is a
+            distributed and complex architecture system where code is
+            distributed across more than 10 services.
           </li>
+          <li>Primarily focus on Java.</li>
         </ul>
       </div>
     </div>

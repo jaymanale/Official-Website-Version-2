@@ -17,34 +17,39 @@ const CognizantExperience = () => {
             @Cognizant
           </span>
         </h3>
-        <h6 className="text-muted mt-4 mb-3">BACK-END Java | Spring Boot</h6>
 
         <ul>
           <li>
-            Improved
-            <span className="font-weight-bold"> Billing module </span>
-            performance by <span className="font-weight-bold"> 15% </span> by
-            implementing features with
-            <span className="font-weight-bold"> Reactive Model. </span>
-          </li>
-          <li>
-            Improved
-            <span className="font-weight-bold"> Autopay Module </span>
-            Feature which helps the Customer to make payment on a monthly cycle
-            by <span className="font-weight-bold"> 20% </span> by adding
+            Develop features using the Reactive Model with Java and Springboot
+            to
             <span className="font-weight-bold">
-              {" "}
-              Autopay and Paper Free Billing feature.{" "}
+              enhance the billing module's performance by 15%.
             </span>
           </li>
-        </ul>
-        <h6 className="text-muted mt-2 mb-3">FRONT-END Javascript | React</h6>
-        <ul>
           <li>
-            <span className="font-weight-bold"> Improved User experience </span>
-            of the Billing and Autopay module by
-            <span className="font-weight-bold"> 20% </span> by implementing the
-            <span className="font-weight-bold"> Module Design standard. </span>
+            <span className="font-weight-bold">Enhance the Autopay</span>{" "}
+            feature to facilitate monthly payments for customers, achieving a{" "}
+            <span className="font-weight-bold">20% increase in usage</span>{" "}
+            through the addition of Autopay and Paper-Free Billing
+            functionalities.
+          </li>
+          <li>
+            <span className="font-weight-bold">
+              Utilize React.js to enhance the user experience
+            </span>{" "}
+            in the Billing and Autopay modules, resulting in a{" "}
+            <span className="font-weight-bold">20% improvement </span> in user
+            satisfaction.
+          </li>
+          <li>
+            <span className="font-weight-bold">
+              Optimized Continuous Integration/Deployment Pipeline{" "}
+            </span>{" "}
+            processes, including pull requests, code reviews, testing, and
+            unit/e2e testing to
+            <span className="font-weight-bold">
+              streamline development workflows.
+            </span>
           </li>
         </ul>
       </div>

@@ -8,51 +8,42 @@ const TcsExperience = () => {
           System Engineer{" "}
           <span className="font-weight-bold newOrangeDarkStyle">@TCS</span>
         </h3>
-        <h6 className="text-muted mt-4 mb-3">
-          BACK-END Java | Spring Boot | PostgreSQL
-        </h6>
+
         <ul>
           <li>
+            Managed GDPR on-boarding at an organizational level, ensuring
+            compliance and potentially
             <span className="font-weight-bold">
               {" "}
-              Completed GDPR on-boarding{" "}
+              saving 4% of global turnover or a 20 Million Euro fine{" "}
             </span>
-            at an organization level which
-            <span className="font-weight-bold"> saved 4% </span> of global
-            turnover or
-            <span className="font-weight-bold"> 20 million </span> Euro fine by
-            <span className="font-weight-bold">
-              {" "}
-              implementing Data Privacy Application.{" "}
-            </span>
+            through the implementation of a Data Privacy Application (DPA)
           </li>
           <li>
-            Increased
             <span className="font-weight-bold">
-              {" "}
-              on-boarding of applications{" "}
-            </span>
+              Increased onboarding of applications,/
+            </span>{" "}
             within an organization for GDPR by
-            <span className="font-weight-bold"> 25% </span>
-            by implementing the
             <span className="font-weight-bold">
-              {" "}
-              Data Protection Impact Assessment(DPIA){" "}
+              25% by implementing the(DPIA) feature.
             </span>
-            feature in the Data Privacy Application.
           </li>
-        </ul>
-        <h6 className="text-muted mt-2 mb-3">FRONT-END Javascript | Angular</h6>
-        <ul>
           <li>
-            Implemented easy to use
-            <span className="font-weight-bold"> Data Attribute Model </span>
-            feature in DPA which improve the user experience by
-            <span className="font-weight-bold"> 20% </span> by using
             <span className="font-weight-bold">
-              {" "}
-              D3.js (Data-Driven Documents){" "}
+              Enhanced user experience by 20%{" "}
             </span>
+            by implementing a user-friendly
+            <span className="font-weight-bold">
+              Data Attribute Model feature using D3.js{" "}
+            </span>
+            within the DPA
+          </li>
+          <li>
+            <span className="font-weight-bold">
+              Specialized in React.js, Java, Spring Boot, and PostgreSQL
+            </span>{" "}
+            with a primary focus on these technologies in project development.
+            Projects
           </li>
         </ul>
       </div>
