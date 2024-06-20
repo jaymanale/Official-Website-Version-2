@@ -17,10 +17,10 @@ const TechnicalProjects = () => {
           {projects.map((project, index) => {
             let imageStyle =
               "col-sm-12 col-md-5 col-lg-5  my-auto text-center ";
-            imageStyle += index % 2 == 0 ? "order-md-2 order-lg-2" : "";
+            imageStyle += index % 2 === 0 ? "order-md-2 order-lg-2" : "";
             let contentStyle =
               "col-sm-12 col-md-5 col-lg-5  my-auto text-center ";
-            contentStyle += index % 2 == 0 ? "order-md-1 order-lg-1" : "";
+            contentStyle += index % 2 === 0 ? "order-md-1 order-lg-1" : "";
 
             return (
               <div

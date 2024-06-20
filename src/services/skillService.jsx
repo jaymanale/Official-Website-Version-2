@@ -6,6 +6,7 @@ import reactjs from "./../resources/skills-icon/react-original.svg";
 import java from "./../resources/skills-icon/java-plain.svg";
 import spring from "./../resources/skills-icon/spring-original.svg";
 import postgresql from "./../resources/skills-icon/postgresql-plain.svg";
+import springBoot from "./../resources/skills-icon/spring-boot.svg";
 
 const frontEndSkills = [
   {
@@ -37,6 +38,10 @@ const backEndSkills = [
   },
   {
     icon: spring,
+    title: "Spring Framework",
+  },
+  {
+    icon: springBoot,
     title: "Spring Boot",
   },
   {

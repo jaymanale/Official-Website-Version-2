@@ -1,6 +1,6 @@
 import React from "react";
 import mainImg from "./../resources/Animate_V2/main.svg";
-import ProfileImg from "./../resources/png/profile3.png";
+import ProfileImg from "./../resources/png/profile-pic-4.png";
 import getSocialLinkData from "./../services/mainService";
 
 const Main = () => {
@@ -22,9 +22,7 @@ const Main = () => {
             </span>
           </h2>
           <h2 className="font-weight-bold">I'm Jayram,</h2>
-          <h1 className="font-weight-bold linear-wipe mt-3">
-            Full-Stack Engineer
-          </h1>
+          <h1 className="font-weight-bold linear-wipe mt-3">Java Developer</h1>
           <div className="social-icons mt-5" aria-label="Social Icon Section">
             {links.map((link) => (
               <SocialCard key={link.icon} {...link} />
