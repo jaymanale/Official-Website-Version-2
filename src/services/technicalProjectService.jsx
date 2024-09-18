@@ -3,14 +3,14 @@ import reactjs from "./../resources/skills-icon/react-original.svg";
 
 const technicalProjects = [
   {
-    title: "Feku Json",
+    title: "Mockify API",
     description:
-      "Created the Feku JSON REST API to supply simulated data for local testing, serving as a valuable resource for testing purposes.",
+      "Created the Mockify API to supply simulated data for local testing, serving as a valuable resource for testing purposes.",
     imageUrl:
       "https://github.com/jaymanale/Official-Website-Version-2/assets/5653906/83d12f92-9d89-436d-89cb-f322e5b40165",
     techStack: java,
     demoLink: "https://documenter.getpostman.com/view/305770/2s93eSabYH",
-    githubLink: "https://github.com/jaymanale/FekuJson",
+    githubLink: "https://github.com/jaymanale/Mockify-API",
     technology:
       "Bootstrap Framework, Spring Boot, Supabase (BAAS) - PostgreSQL",
   },

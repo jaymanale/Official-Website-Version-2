@@ -7,6 +7,7 @@ import java from "./../resources/skills-icon/java-plain.svg";
 import spring from "./../resources/skills-icon/spring-original.svg";
 import postgresql from "./../resources/skills-icon/postgresql-plain.svg";
 import springBoot from "./../resources/skills-icon/spring-boot.svg";
+import microservice from "./../resources/skills-icon/microservice.svg";
 
 const frontEndSkills = [
   {
@@ -43,6 +44,10 @@ const backEndSkills = [
   {
     icon: springBoot,
     title: "Spring Boot",
+  },
+  {
+    icon: microservice,
+    title: "Microservice",
   },
   {
     icon: postgresql,
